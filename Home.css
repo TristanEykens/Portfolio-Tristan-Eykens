@@ -60,7 +60,9 @@ nav i:hover {
 }
 
 #logo {
-    width: 8rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
 }
 
 .content .links li{
@@ -321,7 +323,7 @@ a {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: transparent;
+    background-color: white;
 }
 .footer .column {
     width: 300px;
