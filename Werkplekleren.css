@@ -1,0 +1,82 @@
+/*Code used by all page's*/
+body{
+    background-color: #F3FAFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, h1, h2, h3, h4{
+    font-family: Roboto, serif;
+}
+
+#Eindreflectie-1 {
+    display: none;
+}
+
+.back_to_top_button{
+    margin: 1%;
+    background-color: #B6A8FF;
+    border-width: 0px;
+    border-radius: 35px;
+    padding: 20px;
+    width: 15%;
+    height: 60px;
+    color: white;
+
+}
+
+hr.divider {
+    border-radius: 2px;
+    border-color: #B6A8FF;
+    width: 80%;
+}
+
+button {
+    background-color: #f89a16;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.button {
+    width: 80%;
+    height: 40px;
+    border-radius: 15rem;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    background-color: #B6A8FF;
+}
+.button::before {
+    content: '';
+    width: 0;
+    height: 40px;
+    border-radius: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to
+    right, brown 0%, orange 50%, yellow 100%);
+    transition: .3s ease;
+    display: block;
+    z-index: -1;
+}
+.button:hover::before {
+    width: 100%;
+}

@@ -5,6 +5,7 @@ body{
     background-color: rgb(48, 46, 46);
     box-sizing: border-box;
     font-family: Lato, sans-serif;
+    text-align: center;
 }
 hr{
     width: 80%;

@@ -4,8 +4,286 @@
     <meta charset="UTF-8">
     <title>Werkplekleren</title>
     <link rel="stylesheet" href="Werkplekleren.css">
+    <link rel="stylesheet" href="Universal.css">
 </head>
 <body>
+<!-- Vanaf hier is header -->
+<div class="wrapper">
+    <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="./Home.html"><img src="Images/CroppedDragonHead.PNG" alt="Logo" id="logo"></a></div>
+            <ul class="links">
+                <li><a href="Home.html">Over mij</a></li>
+                <li>
+                    <a href="Hobbies.html" class="desktop-link">Hobbies</a>
+                    <input type="checkbox" id="show-prod">
+                    <label for="show-prod">Hobbies</label>
+                    <ul>
+                        <li><a href="Hobbies.html#pastas">Lezen</a></li>
+                        <li><a href="Hobbies.html#rijst">Tekenen</a></li>
+                        <li><a href="Hobbies.html">Coderen</a></li>
+                        <li><a href="Hobbies.html#sauzen">Grafisch ontwerpen</a></li>
+                        <li><a href="Hobbies.html">Sterrenkunde</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Ervaringen.html" class="desktop-link">Ervaring</a>
+                    <input type="checkbox" id="show-Bereiding">
+                    <label for="show-Bereiding">Ervaring</label>
+                    <ul>
+                        <li><a href="Ervaringen.html#receptenTitel">PXL</a></li>
+                        <li><a href="Ervaringen.html#tips&tricks">DELA</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Werkplekleren.html" class="desktop-link">Werkplekleren 2</a>
+                    <input type="checkbox" id="show-about">
+                    <label for="show-about">Wpl 2</label>
+                    <ul>
+                        <li><a href="Werkplekleren.html">Taken</a></li>
+                        <li><a href="Werkplekleren.html#ethiek">Website</a></li>
+                        <li><a href="Werkplekleren.html">Eindreflectie</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- Tot hier is header -->
 
+
+<button onclick="SwitchEindReflectie(), switchtext(), PowerBarScroll()" class="button" id="ReflectieToggleBtn">Eindreflectie Werkplekleren 2</button>
+
+<div id="Eindreflectie-2">
+    <h1>Eindreflectie Werkplekleren 2</h1>
+    <p>
+        Ik ben Tristan Eykens en in dit project heb ik heb dit semester werkplekleren 2 gevolgd.<br>
+        Hier is mijn verhaal:
+    </p>
+    <br>
+    <h3>Situatie</h3>
+    <p>
+        Bij de start van Werkplekleren 2 op het begin van het semester zijn wij willekeurig in groepen geplaatst waarbij wij op dat moment elkaar nog niet kenden.<br>
+    </p>
+
+    <h3>Taak</h3>
+    <p>
+        Onze taak was om in deze groep van vreemden een groot project te bouwen in de loop van het semester: een volledige rebranding<br>
+        van een artisanale diepgevroren pasta familiebedrijf. Er dient ook een campagne website (of app) met een bijhorende webshop<br>
+        ontwikkeld te worden met als doelgroep zowel B2B als B2C klanten.<br><br>
+        In het begin had ik de rol van documenteerder.<br>
+        Dit verliep niet slecht, en omdat ik al stage heb gedaan in bedrijven die gebruik maakten van scrum<br>
+        werd ik snel ook de uitlegger aan mijn team van een heel wat aspecten binnen in ons groepswerk.<br>
+    </p>
+
+    <h3>Actie</h3>
+    <p>
+        Elke sprint legden wij onze te maken deliverables voor aan het team. Ieder lid mocht kiezen waar hij aan ging werken die sprint.<br>
+        Als de taak niet meeviel of anders was als verwacht had die persoon de keuze om aan iets anders te werken. De logica hierachter<br>
+        was dat ieder lid deed waar hij zelf voor gekozen had en zo een gevoel kreeg dat ze hun steentje bij droegen aan de hand van hun vaardigheden<br>
+        wanneer de taak af was.<br>
+        Wij werkte hard, efficiënt en vooral als team: niemand stond er alleen voor en er was altijd wel iemand die graag het gewicht van je schouders nam.<br>
+        Taakverdeling voelde natuurlijk en wij waren als het ware als team geboren.<br>
+    </p>
+
+    <h3>Resultaat</h3>
+    <p>
+        Op het einde van het semester hebben wij al onze essenties afgekregen:<br>
+        een mooie brand met brandguide, een uitstekende app en een volledig functionele website.<br>
+        Dit heeft ons enorm veel moeite gekost en is zeker niet iets om mee te spotten. Dit komt vast en zeker omdat iedereen in ons team actief meedeed en<br>
+        elkaar hielp waar nodig. Iedereen had zijn taak binnen elke sprint en deed die ook.<br>
+        Ook werd er constant behulpzame feedback gegeven aan elkaar en is essentieel geweest bij het bouwen en perfectioneren van dit project.<br>
+    </p>
+    <br>
+    <h3>Reflectie/Transfer</h3>
+    <p>
+        Persoonlijk ben ik zeer trots op ons resultaat. Onze brand en webshop is functioneel, aantrekkelijk en uniek.<br>
+        Ik, mijn groep en lange dagen werken hebben volgens mij echt iets opgeleverd om fier op te zijn.<br>
+        Ik vond dat ik algemeen veel initiatief heb genomen waardoor mijn team zeer trots op mij was.<br>
+        Hier en daar zijn misschien nog aspecten binnen de website waar ik en mijn groep misschien wat beter op hadden kunnen inspelen,<br>
+        zoals het bouwen van de producten pagina bij de website, waarbij wij een mooie pagina hadden die niet functioneel is<br>
+        en een functionele pagina die niet mooi is opgemaakt.<br><br>
+        De teamsamenwerking was wat inefficiënt op het begin omdat we nog niet zo goed wisten hoe we onszelf moesten organiseren.<br>
+        Geleidelijk aan gleed iedereen zachtjes in zijn rol en waren wij niet meer te stoppen.<br>
+        In dit project heb ik dus veel bijgeleerd over teamsamenwerking, taakverdeling en het inschatten van anderen.<br>
+        Moesten wij dit project moeten herdoen, dan zou ik zeker zo vroeg mogelijk beginnen aan de moeilijke opdrachten zoals de javascript shopping cart.<br>
+        Dit was in de laatste sprint de vloek van mijn bestaan en heeft mij meerdere nachten wakker gehouden.<br>
+        Grote taken zoals deze zijn dus zeker iets dat ik zo vroeg mogelijk zou tackelen en voorplannen in het uurrooster.<br>
+        Deze denkwijze gaat dan ook zeker van pas komen voor andere projecten.<br><br>
+        Maar uiteindelijk hebben wij het afgekregen. Wij hebben een volledige rebranding gebouwd<br>
+        dat wij met een grote strik aan de leerkrachten en Digitong kunnen afgeven.<br>
+        Ik vond dit uiteindelijk nog een zeer fijne opdracht en ik heb veel bijgeleerd de gang van zaken op de werkvloer binnen een IT-bedrijf.<br>
+    </p>
+</div>
+
+<div id="Eindreflectie-1">
+    <h1>Eindreflectie Werkplekleren 1</h1>
+    <p>
+        Dit eerste semester was al voor mij zeer leerrijk.<br>
+        Wij hebben verschillende opdrachten mogen maken die allemaal op verschillende aspecten van het bedrijfsleven inspeelden.<br>
+        Sommigen verliepen wat vlotter dan andere.
+    </p>
+    <br>
+    <h3>Organisatorisch vlak</h3>
+    <p>
+        Ik heb tijdens werkplekleren 1 veel bijgeleerd op organisatorisch vlak:<br>
+        Door de teamopdracht heb ik nu een betere grip op hoe ik moet omgaan in een groep van meerdere collega’s.<br>
+        In het begin was het nogal een wirwar van hoe wij ons moesten organiseren.<br>
+        Dit bleek doorheen de opdracht steeds een probleem te zijn.<br>
+        Er was vaak miscommunicatie en wij hebben ook soms last gehad van niet nageleefde deadlines die wij voor onszelf opstelde.<br>
+        Mijn team en ik hebben hier wel veel uit geleerd op vlak van teamwork en planning.<br>
+        Wij hebben om onszelf beter te organiseren gebruik gemaakt van de scrum-methode.<br>
+        Als scrummaster van mijn team heb ik geleerd om beter de sterkere punten van iedereen in mijn team afzonderlijk van nut te laten zijn in een groepswerk,<br>
+        zodat alles zo vlot mogelijk afgeraakte.<br>
+        Als iets niet lukte dan kon je snel hulp zoeken bij je teamleden die altijd voor je klaarstonden.<br>
+        Ik liet mijn groepsleden steeds de daily stand-up doen bij elke les zodat wij telkens wisten wat er nog gedaan moest worden.<br>
+        Dit heeft ons zeer veel geholpen om alles toch gestructureerd te houden in het team.<br>
+        Wij zijn een paar keer gevallen en terug opgestaan, maar wij vonden dit een unieke leerervaring en zijn blij dit te hebben mogen meemaken.
+    </p>
+
+    <h3>Persoonlijk vlak</h3>
+    <p>
+        Doorheen de opdrachten leerde ik zelf mijn sterkere kwaliteiten al wat kennen en ook waar nog persoonlijk aan gewerkt moet worden.<br>
+        Mijn sterkere kwaliteiten zouden zeker zijn dat ik heel goed kan doorwerken aan een taak zonder al te veel afleiding.<br>
+        Als ik mij ergens aan zet dan maak ik het ook af.<br>
+        Ik ben vrij goed in werken met de eerst onbekende programma’s en kan ook zeer goed vanbuiten leren wanneer nodig.<br>
+        Toch moet ik zeker werken aan mijn vermogen in werken in een team.<br>
+        Ik dacht dat ik al alles wist dat er te weten valt over teamwork. Dit bleek al vroeg in werkplekleren onterecht.<br>
+        Al snel bleek dat er meer aan lag dan gewoon werken.<br>
+        Mijn werkpunt is zeker nog in team leren werken en een goede planning opstellen om mijn doelen te bereiken.<br>
+        Nog een werkpunt is dat ik sneller om hulp moet vragen wanneer ik ergens vastzit in plaats van te lang te treuzelen.<br>
+        Dit heeft ook geleid tot de niet behaalde deadlines.
+    </p>
+
+    <h3>Technisch vlak</h3>
+    <p>
+        Tijdens werkplekleren 1 heb ik mijn vaardigheden op technisch vlak enorm verbeterd, maar dit kan altijd nog beter!<br>
+        In mijn vorige richting heb ik programmeren gedaan. Hierdoor ben ik al ervaring met webstorm en miro. Deze lukken mij uiteraard goed.<br>
+        Ook kan ik al goed werken met programma’s zoals Photoshop en Illustrator die wij dit semester hebben leren kennen.<br>
+        Ik heb wel nog altijd wat moeite met Adobe XD en maak hier nog fouten in. Hier moet ik zeker nog aan werken.<br>
+        Toch ben ik hier enorm in gegroeid en leer ik iedere dag hier meer over bij.<br>
+    </p>
+
+    <h3>Hoe zag je jezelf groeien tijdens Werkplekleren 1?</h3>
+    <p>
+        Tijdens werkplekleren 1 heb ik een betere grip gekregen op hoe het is om te werken op de bedrijfsvloer.<br>
+        Ik ben ook gegroeid als persoon door te luisteren naar de gastsprekers die bij ons in de klas kwamen uitleggen over de werking van hun bedrijven.<br>
+        Het was zeer interessant om te luisteren en bij te leren over wat er van mij verwacht ging worden op de toekomstige werkvloer.<br>
+        Ik heb in dit semester ook veel bijgeleerd zoals:<br>
+        - Mijn planning op basis van mijn vaardigheden beter leren inschatten.<br>
+        - Mijn collega’s hun sterktes en zwaktes leren kennen.<br>
+        - Betere communicatie tussen mij en mijn collega’s aan te maken.<br>
+    </p>
+
+    <h3>Welke professionele kwaliteiten kwamen van pas tijdensWerkplekleren 1?</h3>
+    <p>
+        Ik heb in mijn middelbare school de richting Sociale Technische Wetenschappen (STW) gevolgd en hier heb ik uitgebreide reflecties moeten voorstellen<br>
+        over het werk dat ik gedaan had elk trimester.<br>
+        Hierdoor heb ik een uitgebreide kennis over hoe ik moet reflecteren en waar ik hierbij op moet letten en uit leren.<br>
+        Deze kennis heeft mij ook geholpen om een fatsoenlijke sprint review en retrospective op te stellen op het eind van ons groepsproject<br>
+        waardoor dit toch goed is verlopen ondanks het feit dat mijn team hier niet zo ervaren in was.<br>
+        Het was fijn om mijn team hier wat kennis over bij te brengen.
+    </p>
+
+    <h3>Welke professionele kwaliteiten wens je nog verder uit te breiden tijdens Werkplekleren 2?</h3>
+    <p>
+        Ik zou zeker mijn vaardigheden op vlak van teamwork zeker nog willen uitbreiden.<br>
+        Tijdens werkplekleren 1 hebben wij al de smaak geproeft van scrum en hier heb ik uiteraard veel op bijgeleerd<br>
+        maar ik heb het gevoel dat ik mij hier nog op kan verbeteren.<br>
+        Verder wil ik ook mijn technische vaardigheden zoals werken met Adobe XD uitbreiden<br>
+        en hopelijk nog nieuwe, interessante programma’s en codetalen leren kennen zoals Javascript.
+    </p>
+
+    <h3>Wat heb je gemist in Werkplekleren 1?</h3>
+    <p>
+        Tijdens werkplekleren 1 was alles vrijwel duidelijk. Ik heb geen verdere vragen meer over de geziene leerstof.<br>
+        Wel zou ik graag wat dieper willen ingaan op de manier van werken in de bedrijven waar wij later gaan kunnen een job uitoefenen.<br>
+        Ook wil ik mij verder bekwamen in leiding geven aan een groep en zo een werk tot een goed einde te brengen.<br>
+        Hier hebben wij al veel over geleerd maar ik zou mijn kennis nog graag wat uitbreiden.
+    </p>
+    <br>
+    <h3>Slot</h3>
+    <p>
+        Al bij al was het een fijne opdracht.<br>
+        Het was interessant om al een beeld te krijgen van mijn toekomstige werkvloer en zijn cultuur.<br>
+        Zowel ik als mijn teamsleden hebben veel bijgeleerd en ik ben al zeker benieuwd wat het volgende semester ons zal aanbieden.
+    </p>
+</div>
+
+<hr class="divider">
+
+<div class="Bronnen">
+    <h1>Bronnen:</h1>
+    <ul>
+        <li><p>Bedacht door: Tristan Eykens</p></li>
+        <li><p>Uitgeschetst door: Tristan Eykens</p></li>
+        <li><p>Geschreven door: Tristan Eykens</p></li>
+        <li><p>Geregisseerd door: Tristan Eykens</p></li>
+        <li><p>Ontworpen door: Tristan Eykens</p></li>
+        <li><p>Bewerkt en verzorgd door: Tristan Eykens</p></li>
+        <li><p>Gepresenteerd door: Tristan Eykens</p></li>
+    </ul>
+</div>
+
+<!-- FOOTER START -->
+<div class="footer">
+    <div class="container">
+        <div class="column">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Mission</li>
+                <li>Services</li>
+                <li>Social</li>
+                <li>Get in touch</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h1>Products</h1>
+            <ul>
+                <li>About</li>
+                <li>Mission</li>
+                <li>Services</li>
+                <li>Social</li>
+                <li>Get in touch</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h1>Accounts</h1>
+            <ul>
+                <li>About</li>
+                <li>Mission</li>
+                <li>Services</li>
+                <li>Social</li>
+                <li>Get in touch</li>
+            </ul>
+        </div>
+        <div class="column social">
+            <h1>Socials</h1>
+            <a>+0471 58 09 23</a>
+            <ul>
+                <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+                <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+                <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- END OF FOOTER -->
+
+<a href="#"><div id="terugnaarboven">
+    <p>Top</p>
+</div>
+</a>
+<a href="#"><div id="terugnaarboven2">
+    <p><i class="fa-solid fa-arrow-up"></i></p>
+</div>
+</a>
 </body>
+<script src="Werkplekleren.js"></script>
 </html>
