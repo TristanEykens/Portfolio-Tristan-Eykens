@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: #000;
+    transition: background-color 1s ease;
+    font-family: sans-serif;
+    background-color: #22252A;
+}
+
+h1 {
+    color: #F8B960;
+    font-size: 50px;
+    font-family: Mr Alex, sans-serif;
+}
+
+i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* panel styles */
+.panel {
+    /* min height incase content is higher than window height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    /* outline: 10px solid hotpink; */
+    /* turn above on to see the edge of panels */
+}
+
+/* styling for demo, can ignore */
+body {
+    font-size: 120%;
+    line-height: 1.618;
+}
+h1, h2 {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+}
+p {
+    max-width: 30em;
+    margin-bottom: 1.618em;
+}
+a {
+    color: #4332CF;
+}
