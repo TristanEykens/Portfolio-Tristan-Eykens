@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(48, 46, 46);
+    background-color: rgb(48, 46, 46);
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+hr{
+    width: 80%;
+}
+h1, h2, h5{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+a{
+    font-size: 16px;
+}
+p{
+    font-size: 15px;
+    color: white;
+}
+.contact-items{
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.contact-items h1, h2, h5{
+    color: white;
+}
+.customer-care,.write-us,.sales-market,.PXL-logo,.VIIO-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 30px auto;
+    padding: 35px 15px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 250px;
+    background-color: rgb(48, 46, 46);
+}
+.customer-care{
+    height: 250px;
+}
+.write-us{
+    height: 250px;
+}
+.sales-market{
+    height: 250px;
+}
+
+.PXL-logo img,.VIIO-logo img{
+    width: 100%;
+    box-shadow: 15px 15px 15px black;
+}
+
+hr.divider {
+    width: 150px;
+    color: white;
+    border-radius: 2px;
+    border-color: white;
+}

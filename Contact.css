@@ -32,7 +32,7 @@ p{
 .contact-items h1, h2, h5{
     color: #5A3F19;
 }
-.customer-care,.write-us,.sales-market{
+.telephone,.email,.socials,.location{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,21 +45,7 @@ p{
     background-color: #FDECD3;
     box-shadow: 0 15px 15px black;
     border: 1px solid black;
-}
-.customer-care{
     height: 250px;
-    box-shadow: 0 15px 15px black;
-    border: 1px solid black;
-}
-.write-us{
-    height: 250px;
-    box-shadow: 0 15px 15px black;
-    border: 1px solid black;
-}
-.sales-market{
-    height: 250px;
-    box-shadow: 0 15px 15px black;
-    border: 1px solid black;
 }
 
 hr.divider {
