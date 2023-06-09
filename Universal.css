@@ -1,6 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
     text-decoration: none;
     scroll-behavior: smooth;    /*gives the go-to-top button a smooth scrolling effect*/
+    font-family: Lato, sans-serif;
 }
 
 
@@ -11,7 +16,7 @@
     padding-bottom: 1rem;
     margin-bottom: 3rem;
     width: 100%;
-    background-color: rgba(31, 31, 31, 0.94);
+    background-color: #1D1D1B;
     z-index: 3;
     position: relative;
 }
@@ -106,7 +111,7 @@ a.active {
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
-    background-color: rgba(31, 31, 31, 0.94);
+    background-color: #1D1D1B;
 }
 .content .links ul li a{
     display: block;
@@ -150,7 +155,7 @@ a.active {
     nav .content .links{
         display: block;
         position: fixed;
-        background-color: rgba(31, 31, 31, 0.94);
+        background-color: #1D1D1B;
         height: 100%;
         width: 100%;
         top: 70px;
@@ -221,7 +226,7 @@ a.active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #212529;
+    background-color: #1D1D1B;
     color: white;
     padding: 25px 60px;
     margin-bottom: 30px;
@@ -234,7 +239,7 @@ a.active {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: black;
+    background-color: #1D1D1B;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -256,6 +261,7 @@ a.active {
     padding: 20px 0px 5px 0px;
     text-transform: uppercase;
     letter-spacing: 0.250em;
+    color: #f89a16
 }
 
 .footer .column a {
@@ -356,20 +362,20 @@ a.active {
     padding: 0.5rem 2rem;
 }
 #terugnaarboven p {
-    color: #22252A;
+    color: #1D1D1B;
     text-decoration: none;
 }
 #terugnaarboven2 {
     position: fixed;
     bottom: 0;
     right: 25px;
-    background-color: #B6A8FF;;
+    background-color: #B6A8FF;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 1rem;
 }
 #terugnaarboven2 p {
-    color: #22252A;
+    color: #1D1D1B;
     font-size: 25pt;
     text-decoration: none;
     text-align: center;

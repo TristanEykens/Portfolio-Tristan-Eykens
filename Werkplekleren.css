@@ -1,4 +1,3 @@
-/*Code used by all page's*/
 body{
     background-color: #F3FAFE;
     display: flex;
@@ -10,13 +9,106 @@ p, h1, h2, h3, h4{
     font-family: Roboto, serif;
 }
 
+h1 {
+    padding-bottom: 20px;
+}
+
+.Website-section {
+    background-color: #F3FAFE;
+    width: 100%;
+    height: 1000px;
+}
+
+.Website-section h1 {
+    color: #1D1D1B;
+}
+
+.Titel_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2.5%;
+    text-align: Left;
+    font-size: 35px;
+}
+
+.Titel_div img {
+    width: 80%;
+    padding-left: 250px;
+}
+
+.Products-front-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Individueel-product-vakje {
+    background: #F8B960;
+    box-shadow: 0 0 20px black;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 25px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.Individueel-product-vakje p {
+    padding: 0 45px;
+}
+
+.Individueel-product-vakje img {
+    width: 25%;
+}
+
+.Bekijk-Ons-Aanbod-Knop-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.Knop-Bekijk {
+    margin: 1.5%;
+    background-color: #1D1D1B;
+    color: White;
+    border-width: 0px;
+    border-radius: 35px;
+    padding: 15px;
+    width: 100%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
 #Eindreflectie-1 {
     display: none;
+}
+
+#Eindreflectie-1, #Eindreflectie-2 {
     padding-bottom: 50px;
 }
 
-#Eindreflectie-2 {
-    padding-bottom: 50px;
+#Eindreflectie-1 h1, #Eindreflectie-2 h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#Eindreflectie-1 h3, #Eindreflectie-2 h3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .Bronnen {
@@ -88,12 +180,4 @@ button {
 }
 .button:hover::before {
     width: 100%;
-}
-
-.footer {
-    background-color: white;
-}
-
-.footer .column a{
-    color: black;
 }
