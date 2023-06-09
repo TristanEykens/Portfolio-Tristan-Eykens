@@ -17,17 +17,28 @@
         <div class="content">
             <div class="logo"><a href="./Home.html"><img src="Images/CroppedDragonHead.PNG" alt="Logo" id="logo"></a></div>
             <ul class="links">
-                <li><a href="Home.html">Over mij</a></li>
+                <li>
+                    <a href="Home.html">Over mij</a>
+                    <input type="checkbox" id="show-home">
+                    <label for="show-home">Over mij</label>
+                    <ul>
+                        <li><a href="Home.html#Introductie">Introductie</a></li>
+                        <li><a href="Home.html#Passie">Passie</a></li>
+                        <li><a href="Home.html#Programmas">Programma's</a></li>
+                        <li><a href="Home.html#Backend">Back-end</a></li>
+                        <li><a href="Home.html#Interesse">Interesse?</a></li>
+                    </ul>
+                </li>
                 <li>
                     <a href="Hobbies.html" class="desktop-link">Hobbies</a>
                     <input type="checkbox" id="show-prod">
                     <label for="show-prod">Hobbies</label>
                     <ul>
-                        <li><a href="Hobbies.html#pastas">Lezen</a></li>
-                        <li><a href="Hobbies.html#rijst">Tekenen</a></li>
-                        <li><a href="Hobbies.html">Coderen</a></li>
-                        <li><a href="Hobbies.html#sauzen">Grafisch ontwerpen</a></li>
-                        <li><a href="Hobbies.html">Sterrenkunde</a></li>
+                        <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
+                        <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
+                        <li><a href="Hobbies.html#HobbiesGrafisch">Grafisch ontwerpen</a></li>
+                        <li><a href="Hobbies.html#HobbiesCoderen">Coderen</a></li>
+                        <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
                     </ul>
                 </li>
                 <li>
@@ -35,8 +46,9 @@
                     <input type="checkbox" id="show-Bereiding">
                     <label for="show-Bereiding">Ervaring</label>
                     <ul>
-                        <li><a href="Ervaringen.html#receptenTitel">PXL</a></li>
-                        <li><a href="Ervaringen.html#tips&tricks">DELA</a></li>
+                        <li><a href="Ervaringen.html#Viio">Viio</a></li>
+                        <li><a href="Ervaringen.html#PXL">PXL</a></li>
+                        <li><a href="Ervaringen.html#DELA">DELA</a></li>
                     </ul>
                 </li>
                 <li>
@@ -45,8 +57,9 @@
                     <label for="show-about">Wpl 2</label>
                     <ul>
                         <li><a href="Werkplekleren.html">Taken</a></li>
-                        <li><a href="Werkplekleren.html#ethiek">Website</a></li>
-                        <li><a href="Werkplekleren.html">Eindreflectie</a></li>
+                        <li><a href="Werkplekleren.html">Website</a></li>
+                        <li><a href="Werkplekleren.html#ReflectieToggleBtn">Eindreflectie</a></li>
+                        <li><a href="Werkplekleren.html#Bronnen">Bronnen</a></li>
                     </ul>
                 </li>
                 <li><a href="Contact.html">Contact</a></li>
@@ -56,7 +69,8 @@
 </div>
 <!-- Tot hier is header -->
 
-<div class="panel" data-color="white">
+<div class="panel" id="Introductie">
+    <img class="contact_logo" src="Images/TristanPXLWojak2.png" alt="email">
     <div>
         <h1>Hallo beste lezer!</h1><br>
         <p>Mijn naam is Tristan Eykens, ik volg op dit moment graduaat Grafische vormgeving en vind de opleiding uitermate interessant.</br>
@@ -65,53 +79,40 @@
             Ik ben precies, resultaatgericht en zelfstandig.</p>
     </div>
 </div>
-<div class="panel" data-color="violet">
-    <img src="./about-us.png" alt="About Img"/>
+<div class="panel" id="Passie">
     <div>
-        <h2>Lezen</h2><br>
+        <h2>Ontwerpen is mijn passie!</h2><br>
+        <p>Ik lees ook vaak. HEEL vaak.
+            Ik lees ook vaak. HEEL vaak.<br>
+            Ik lees ook vaak. HEEL vaak.
+        </p>
+    </div>
+    <img class="contact_logo" src="Images/TristanPXLWojak2.png" alt="email">
+</div>
+<div class="panel" id="Programmas">
+    <img class="contact_logo" src="Images/TristanPXLWojak2.png" alt="email">
+    <div>
+        <h2>Mijn favoriete programma's</h2><br>
         <p>Ik lees ook vaak. HEEL vaak.
             Ik lees ook vaak. HEEL vaak.<br>
             Ik lees ook vaak. HEEL vaak.
         </p>
     </div>
 </div>
-<div class="panel" data-color="indigo">
+<div class="panel" id="Backend">
     <div>
-        <h2>Tekenen</h2><br>
-        <p>Ik lees ook vaak. HEEL vaak.
-            Ik lees ook vaak. HEEL vaak.<br>
-            Ik lees ook vaak. HEEL vaak.
+        <h2>Back-end</h2><br>
+        <p>Maar dat was nog niet alles; Ik ben ook gevaardigd in het back-end!<br>
+            Namelijk met programmeertalen zoals: HTML, CSS en Javascript!
         </p>
     </div>
-    <img src="./about-us.png" alt="About Img"/>
+    <img class="contact_logo" src="Images/TristanPXLWojak2.png" alt="email">
 </div>
-<div class="panel" data-color="blue">
-    <img src="./about-us.png" alt="About Img"/>
+<div class="panel" id="Interesse">
+    <img class="contact_logo" src="Images/TristanPXLWojak2.png" alt="email">
     <div>
-        <h2>Coderen</h2><br>
-        <p>Ik lees ook vaak. HEEL vaak.
-            Ik lees ook vaak. HEEL vaak.<br>
-            Ik lees ook vaak. HEEL vaak.
-        </p>
-    </div>
-</div>
-<div class="panel" data-color="yellow">
-    <div>
-        <h2>Lezen</h2><br>
-        <p>Ik lees ook vaak. HEEL vaak.
-            Ik lees ook vaak. HEEL vaak.<br>
-            Ik lees ook vaak. HEEL vaak.
-        </p>
-    </div>
-    <img src="./about-us.png" alt="About Img"/>
-</div>
-<div class="panel" data-color="green">
-    <img src="./about-us.png" alt="About Img"/>
-    <div>
-        <h2>Sterrenkunde</h2><br>
-        <p>Ik lees ook vaak. HEEL vaak.
-            Ik lees ook vaak. HEEL vaak.<br>
-            Ik lees ook vaak. HEEL vaak.
+        <h2>Nog niet interessant genoeg?</h2><br>
+        <p>Bekijk zeker eens de rest van deze website om meer over mij te weten te komen!
         </p>
     </div>
 </div>
@@ -120,33 +121,40 @@
 <div class="footer">
     <div class="container">
         <div class="column">
-            <h1>Tristan Eykens</h1>
+            <h1 href="Home.html">Over mij</h1>
             <ul>
-                <li>Over mij</li>
-                <li>Mission</li>
-                <li>Services</li>
-                <li>Social</li>
-                <li>Get in touch</li>
+                <li><a href="Home.html#Introductie">Introductie</a></li>
+                <li><a href="Home.html#Passie">Passie</a></li>
+                <li><a href="Home.html#Programmas">Programma's</a></li>
+                <li><a href="Home.html#Backend">Back-end</a></li>
+                <li><a href="Home.html#Interesse">Interesse?</a></li>
             </ul>
         </div>
         <div class="column">
-            <h1>Ervaring</h1>
+            <h1 href="Hobbies.html">Hobbies</h1>
             <ul>
-                <li>About</li>
-                <li>Mission</li>
-                <li>Services</li>
-                <li>Social</li>
-                <li>Get in touch</li>
+                <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
+                <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
+                <li><a href="Hobbies.html#HobbiesGrafisch">Grafisch ontwerpen</a></li>
+                <li><a href="Hobbies.html#HobbiesCoderen">Coderen</a></li>
+                <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
             </ul>
         </div>
         <div class="column">
-            <h1>Werkplekleren</h1>
+            <h1 href="Ervaringen.html">Ervaring</h1>
             <ul>
-                <li>About</li>
-                <li>Mission</li>
-                <li>Services</li>
-                <li>Social</li>
-                <li>Get in touch</li>
+                <li><a href="Ervaringen.html">Viio</a></li>
+                <li><a href="Ervaringen.html">PXL</a></li>
+                <li><a href="Ervaringen.html">DELA</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h1 href="Werkplekleren.html">Werkplekleren</h1>
+            <ul>
+                <li><a href="Werkplekleren.html">Taken</a></li>
+                <li><a href="Werkplekleren.html">Website</a></li>
+                <li><a href="Werkplekleren.html#ReflectieToggleBtn">Reflecties</a></li>
+                <li><a href="Werkplekleren.html#Bronnen">Bronnen</a></li>
             </ul>
         </div>
         <div class="column social">

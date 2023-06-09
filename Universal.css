@@ -235,20 +235,21 @@ a.active {
     position: relative;
     height: auto;
     background-color: black;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .footer .column {
-    width: 300px;
+    width: 240px;
     height: auto;
     float: left;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     padding: 0px 20px 20px 20px;
-    color: white;
 }
 .footer .column h1 {
     margin: 0;
-    padding: 0;
     font-family: inherit;
     font-size: 16px;
     line-height: 17px;
@@ -256,6 +257,12 @@ a.active {
     text-transform: uppercase;
     letter-spacing: 0.250em;
 }
+
+.footer .column a {
+    text-decoration: none;
+    color: white;
+}
+
 .footer .column ul {
     list-style-type: none;
     margin: 0;
