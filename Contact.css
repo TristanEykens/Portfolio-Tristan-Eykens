@@ -20,6 +20,7 @@ p{
     font-size: 15px;
     color: #5A3F19;
 }
+
 .contact-items{
     display: flex;
     margin: 30px auto;
@@ -51,4 +52,8 @@ hr.divider {
     color: #5A3F19;
     border-radius: 2px;
     border-color: #5A3F19;
+}
+
+.footer {
+    padding-top: 35px;
 }

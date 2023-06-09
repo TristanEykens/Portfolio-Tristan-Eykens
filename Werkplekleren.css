@@ -16,7 +16,7 @@ h1 {
 .Website-section {
     background-color: #F3FAFE;
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 
 .Website-section h1 {
@@ -91,6 +91,75 @@ h1 {
 
 
 
+/*Code used by "Projects.html"*/
+.Projects{
+    background-color: #938CB4;
+    border-radius: 30px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uitklapmenu{
+    width: 600px;
+}
+
+.uitklapmenu li{
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 10px -1px black;
+}
+
+.uitklapmenu li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #D8D1FF;
+}
+
+.uitklapmenu label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.uitklapmenu .content{
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.uitklapmenu input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.uitklapmenu input[type="radio"]:checked + label::before{
+    content: '-';
+}
+
+.application_icon{
+    height: 100px;
+    width: 100px;
+}
+
+
+
 
 
 #Eindreflectie-1 {
@@ -102,8 +171,8 @@ h1 {
 }
 
 #Eindreflectie-1 h1, #Eindreflectie-2 h1 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 #Eindreflectie-1 h3, #Eindreflectie-2 h3 {
