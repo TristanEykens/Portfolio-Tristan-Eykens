@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
 </head>
 <body>
-<!-- Hier begint de Header -->
+<!-- Begin Header sectie -->
 <div class="wrapper">
     <nav>
         <input type="checkbox" id="show-search">
@@ -18,9 +18,9 @@
             <div class="logo"><a href="./Home.html"><img src="Images/CroppedDragonHead.PNG" alt="Logo" id="logo"></a></div>
             <ul class="links">
                 <li>
-                    <a href="Home.html">Over mij</a>
-                    <input type="checkbox" id="show-home">
-                    <label for="show-home">Over mij</label>
+                    <a href="Home.html" class="desktop-link">Over mij</a>
+                    <input type="checkbox" id="show-Home">
+                    <label for="show-Home">Over mij</label>
                     <ul>
                         <li><a href="Home.html#Introductie">Introductie</a></li>
                         <li><a href="Home.html#Passie">Passie</a></li>
@@ -31,8 +31,8 @@
                 </li>
                 <li>
                     <a href="Hobbies.html" class="desktop-link">Hobbies</a>
-                    <input type="checkbox" id="show-prod">
-                    <label for="show-prod">Hobbies</label>
+                    <input type="checkbox" id="show-Hobbies">
+                    <label for="show-Hobbies">Hobbies</label>
                     <ul>
                         <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                         <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
@@ -43,8 +43,8 @@
                 </li>
                 <li>
                     <a href="Ervaringen.html" class="desktop-link">Ervaring</a>
-                    <input type="checkbox" id="show-Bereiding">
-                    <label for="show-Bereiding">Ervaring</label>
+                    <input type="checkbox" id="show-Ervaring">
+                    <label for="show-Ervaring">Ervaring</label>
                     <ul>
                         <li><a href="Ervaringen.html#Viio">Viio</a></li>
                         <li><a href="Ervaringen.html#PXL">PXL</a></li>
@@ -53,8 +53,8 @@
                 </li>
                 <li>
                     <a href="Werkplekleren.html" class="desktop-link">Werkplekleren 2</a>
-                    <input type="checkbox" id="show-about">
-                    <label for="show-about">Wpl 2</label>
+                    <input type="checkbox" id="show-WPL">
+                    <label for="show-WPL">Wpl 2</label>
                     <ul>
                         <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                         <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -67,83 +67,87 @@
         </div>
     </nav>
 </div>
-<!-- Tot hier is header -->
+<!-- Tot hier is Header sectie-->
 
-
+<!-- Begin Taken lijst sectie -->
 <br><br>
 <h1 id="WerkpleklerenTakenLijst">Hier is mijn gemaakte taken lijst</h1>
-<h1>Taken uit werkplekleren 1:</h1>
-<div class="projects">
-    <ul class="uitklapmenu">
+<h1 class="ProjectenTitels">Taken uit werkplekleren 1:</h1>
+<div class="Projecten">
+    <ul class="UitklapMenu">
         <li>
-            <input type="radio" name="uitklapmenu" id="eerste" checked>
-            <label for="eerste">Mijn CV, in Adobe XD!</label>
+            <input type="checkbox" name="UitklapMenu" id="Eerste">
+            <label for="Eerste">Mijn CV, in Adobe XD!</label>
             <div class="content">
                 <p>Deze file is ditzelfde cv maar dan gemaakt in Adobe XD.</p>
                 <p>Dit heb ik gemaakt als voorbereiding op deze opdracht.</p>
                 <p>Het gaf mij een goed beeld hoe ik dit cv wou opbouwen.</p>
-                <img class="application_icon" src="/Assets/Adobe_XDLogo.png">
+                <img class="ApplicatieIcoon" src="/Assets/Adobe_XDLogo.png">
             </div>
         </li>
         <li>
-            <input type="radio" name="uitklapmenu" id="tweede">
-            <label for="tweede">Design in Illustrator</label>
+            <input type="checkbox" name="UitKlapmenu" id="Tweede">
+            <label for="Tweede">Design in Illustrator</label>
             <div class="content">
                 <p>Tijdens onze les Graphic skills hebben wij gewerkt met Illustrator.</p>
                 <p>Onze laatste PE was een grote tekening die wij zelf moesten uittekenen in het programma.</p>
                 <p>Hier is mijn resultaat!</p>
-                <img class="application_icon" src="/Assets/Adobe_IllustratorLogo.png">
+                <img class="ApplicatieIcoon" src="/Assets/Adobe_IllustratorLogo.png">
             </div>
         </li>
         <li>
-            <input type="radio" name="uitklapmenu" id="derde">
-            <label for="derde">Zalando in Photoshop</label>
+            <input type="checkbox" name="UitklapMenu" id="Derde">
+            <label for="Derde">Zalando in Photoshop</label>
             <div class="content">
                 <p>Maar dat was niet het enigste dat wij die les gedaan hebben;</p>
                 <p>Ook hebben wij een advertentie moeten maken voor het bedrijf Zalando.</p>
                 <p>Hier is mijn resultaat!</p>
-                <img class="application_icon" src="/Assets/Adobe_PhotoshopLogo.png">
+                <img class="ApplicatieIcoon" src="/Assets/Adobe_PhotoshopLogo.png">
             </div>
         </li>
         <li>
-            <input type="radio" name="uitklapmenu" id="vierde">
-            <label for="vierde">Ecolift app</label>
+            <input type="checkbox" name="UitklapMenu" id="Vierde">
+            <label for="Vierde">Ecolift app</label>
             <div class="content">
                 <p>Tijdens onze les UI-Design heb ik en mijn klas onze eigen bedrijven moeten uittekenen en presenteren.</p>
                 <p>Ik en mijn team hadden als opdracht een taxibedrijf genaamd ecolift.</p>
                 <p>Dit is onze app die wij hebben gemaakt in Adobe XD!</p>
-                <img class="application_icon" src="/Assets/Adobe_XDLogo.png">
+                <img class="ApplicatieIcoon" src="/Assets/Adobe_XDLogo.png">
             </div>
         </li>
     </ul>
 </div>
-<h1>Andere projecten:</h1>
-<div class="projects">
-    <ul class="uitklapmenu">
+<h1 class="ProjectenTitels">Andere projecten:</h1>
+<div class="Projecten">
+    <ul class="UitklapMenu">
         <li>
-            <input type="radio" name="uitklapmenu" id="vijfde" checked>
-            <label for="vijfde">Blad, steen, schaar spel in C#</label>
+            <input type="checkbox" name="UitklapMenu" id="Vijfde">
+            <label for="Vijfde">Blad, steen, schaar spel in C#</label>
             <div class="content">
                 <p>Toen ik nog mijn cursus programmeren volgde heb ik als opdracht gekregen een spel blad, steen, schaar te coderen.</p>
                 <p>Het was een heel groot project waar ik weken aan gezeten heb.</p>
                 <p>Ik ben er al zeer trots op!</p>
-                <img class="application_icon" src="/Assets/C-SharpLogo.png">
+                <img class="ApplicatieIcoon" src="/Assets/C-SharpLogo.png">
             </div>
         </li>
         <li>
-            <input type="radio" name="uitklapmenu" id="zesde">
-            <label for="zesde">Java oefeningen</label>
+            <input type="checkbox" name="UitklapMenu" id="Zesde">
+            <label for="Zesde">Java oefeningen</label>
             <div class="content">
                 <p>Ik heb in mijn vrije tijd een avondcursus Java gevolgd.</p>
                 <p>Hier heb ik alles geleerd dat ik weet van Java.</p>
                 <p>Dit waren enkele van mijn oefening!</p>
-                <img class="application_icon" src="/Assets/JavaLogo.png">
+                <img class="ApplicatieIcoon" src="/Assets/JavaLogo.png">
             </div>
         </li>
     </ul>
 </div>
+<!-- Einde Taken lijst sectie -->
+
 <br><br><br><br><br><br>
-<div class="Website-section" id="WerkpleklerenWebsiteSectie">
+
+<!-- Begin Pasta Fresca sectie -->
+<div class="PastaFresca-section" id="WerkpleklerenWebsiteSectie">
     <div class="Titel_div">
         <table>
             <tr>
@@ -156,8 +160,8 @@
             </tr>
         </table>
     </div>
-    <div class="Products-front-page">
-        <div class="Individueel-product-vakje">
+    <div class="TakenPastaFresca">
+        <div class="IndividueelTaakVakje">
             <div>
                 <a href="#"><img src="Images/TristanPXLWojak2.png" alt="Logo"></a>
                 <h2>Item 1</h2>
@@ -166,7 +170,7 @@
                 <a href="https://subtle-treacle-8524f7.netlify.app/" target="_blank" class="Knop-Bekijk">Bekijk!</a>
             </div>
         </div>
-        <div class="Individueel-product-vakje">
+        <div class="IndividueelTaakVakje">
             <div>
                 <a href="#"><img src="Images/TristanPXLWojak2.png" alt="Logo"></a>
                 <h2>Item 2</h2>
@@ -175,7 +179,7 @@
                 <a href="https://subtle-treacle-8524f7.netlify.app/" target="_blank" class="Knop-Bekijk">Bekijk!</a>
             </div>
         </div>
-        <div class="Individueel-product-vakje">
+        <div class="IndividueelTaakVakje">
             <div>
                 <a href="#"><img src="Images/TristanPXLWojak2.png" alt="Logo"></a>
                 <h2>Brand guide</h2>
@@ -184,7 +188,7 @@
                 <a href="https://we.tl/t-DSUyTCt8LJ" target="_blank" class="Knop-Bekijk">Bekijk onze Brand guide!</a>
             </div>
         </div>
-        <div class="Individueel-product-vakje">
+        <div class="IndividueelTaakVakje">
             <div>
                 <a href="#"><img src="Images/TristanPXLWojak2.png" alt="Logo"></a>
                 <h2>Webshop</h2>
@@ -195,9 +199,10 @@
         </div>
     </div>
 </div>
+<!-- Einde Pasta Fresca sectie -->
 
-<!-- Hier begint de eindreflectie sectie -->
-<button onclick="SwitchEindReflectie(), switchtext(), PowerBarScroll()" class="button" id="WerkpleklerenReflectieToggleBtn">Eindreflectie Werkplekleren 2</button>
+<!-- Begin Eindreflectie sectie -->
+<button onclick="SwitchEindReflectie(), switchtext(), PowerBarScroll()" class="button" id="WerkpleklerenReflectieToggleBtn">Bekijk eindreflectie Werkplekleren 1!</button>
 <br>
 <div id="Eindreflectie-2">
     <h1>Eindreflectie Wpl 2</h1>
@@ -354,9 +359,11 @@
         Zowel ik als mijn teamsleden hebben veel bijgeleerd en ik ben al zeker benieuwd wat het volgende semester ons zal aanbieden.
     </p>
 </div>
-<br>
-<hr class="divider"><br>
-<br>
+<!-- Einde Eindreflectie sectie -->
+
+<br><hr class="divider"><br><br>
+
+<!-- Begin Bronnen sectie -->
 <div class="Bronnen" id="WerkpleklerenBronnen">
     <h1>Bronnen:</h1>
     <ul>
@@ -369,13 +376,13 @@
         <li><p>Gepresenteerd door: Tristan Eykens</p></li>
     </ul>
 </div>
-
+<!-- Einde Bronnen sectie -->
 
 <!-- Begin van de Footer -->
-<div class="footer">
-    <div class="container">
-        <div class="column">
-            <h1 href="Home.html">Over mij</h1>
+<div class="Footer">
+    <div class="Container">
+        <div class="Column">
+            <h1 Onclick="HomePageSwitch()">Over mij</h1>
             <ul>
                 <li><a href="Home.html#Introductie">Introductie</a></li>
                 <li><a href="Home.html#Passie">Passie</a></li>
@@ -384,8 +391,8 @@
                 <li><a href="Home.html#Interesse">Interesse?</a></li>
             </ul>
         </div>
-        <div class="column">
-            <h1 href="Hobbies.html">Hobbies</h1>
+        <div class="Column">
+            <h1 Onclick="HobbiesPageSwitch()">Hobbies</h1>
             <ul>
                 <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                 <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
@@ -394,16 +401,16 @@
                 <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
             </ul>
         </div>
-        <div class="column">
-            <h1 href="Ervaringen.html">Ervaring</h1>
+        <div class="Column">
+            <h1 Onclick="ErvaringPageSwitch()">Ervaring</h1>
             <ul>
                 <li><a href="Ervaringen.html">Viio</a></li>
                 <li><a href="Ervaringen.html">PXL</a></li>
                 <li><a href="Ervaringen.html">DELA</a></li>
             </ul>
         </div>
-        <div class="column">
-            <h1 href="Werkplekleren.html">Werkplekleren</h1>
+        <div class="Column">
+            <h1 Onclick="WPLPageSwitch()">Werkplekleren</h1>
             <ul>
                 <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                 <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -411,8 +418,8 @@
                 <li><a href="Werkplekleren.html#WerkpleklerenBronnen">Bronnen</a></li>
             </ul>
         </div>
-        <div class="column social">
-            <h1>Contact</h1>
+        <div class="Column Contacten">
+            <h1 Onclick="ContactPageSwitch()">Contact</h1>
             <a>+0471 58 09 23</a>
             <ul>
                 <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
@@ -420,19 +427,20 @@
                 <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
             </ul>
         </div>
-        <div class="clearfix"></div>
+        <div class="Clearfix"></div>
     </div>
 </div>
 <!-- Einde van de Footer -->
 
-<a href="#"><div id="terugnaarboven">
+<a href="#"><div id="Terug-Naar-Boven-Knop">
     <p>Top</p>
 </div>
 </a>
-<a href="#"><div id="terugnaarboven2">
+<a href="#"><div id="Terug-Naar-Boven-Knop-2">
     <p><i class="fa-solid fa-arrow-up"></i></p>
 </div>
 </a>
 </body>
 <script src="Werkplekleren.js"></script>
+<script src="Universal.js"></script>
 </html>

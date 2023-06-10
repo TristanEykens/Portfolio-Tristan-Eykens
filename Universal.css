@@ -8,8 +8,8 @@
     font-family: Lato, sans-serif;
 }
 
-
-/*============================================Begin Header section=========================================================*/
+/*=========================================Einde van Universele sectie=====================================================*/
+/*===========================================Begin van Header sectie=======================================================*/
 
 .wrapper{
     padding-top: 1.5rem;
@@ -195,9 +195,11 @@ a.active {
         max-height: 0px;
         overflow: hidden;
     }
-    .content .links #show-Bereiding:checked ~ ul,
-    .content .links #show-about:checked ~ ul,
-    .content .links #show-prod:checked ~ ul{
+    .content .links #show-Home:checked ~ ul,
+    .content .links #show-Hobbies:checked ~ ul,
+    .content .links #show-Ervaring:checked ~ ul,
+    .content .links #show-WPL:checked ~ ul,
+    .content .links #show-Contact:checked ~ ul{
         max-height: 100vh;
     }
     .content .links ul li{
@@ -219,8 +221,8 @@ a.active {
 
 }
 
-/*============================================End of Header section=========================================================*/
-/*========================================Begin Nav Bar styling section=====================================================*/
+/*===========================================Begin van Header sectie=======================================================*/
+/*=======================================Begin van Nav Bar stijl sectie====================================================*/
 
 .navbar {
     display: flex;
@@ -232,10 +234,10 @@ a.active {
     margin-bottom: 30px;
 }
 
-/*========================================End of Nav Bar styling section=====================================================*/
-/*============================================Begin Footer section===========================================================*/
+/*========================================Einde van Nav Bar stijl sectie=====================================================*/
+/*===========================================Begin van Footer sectie=========================================================*/
 
-.footer {
+.Footer {
     width: 100%;
     position: relative;
     height: auto;
@@ -244,7 +246,7 @@ a.active {
     align-content: center;
     align-items: center;
 }
-.footer .column {
+.Footer .Column {
     width: 240px;
     height: auto;
     float: left;
@@ -253,7 +255,7 @@ a.active {
     -moz-box-sizing: border-box;
     padding: 0px 20px 20px 20px;
 }
-.footer .column h1 {
+.Footer .Column h1 {
     margin: 0;
     font-family: inherit;
     font-size: 16px;
@@ -261,20 +263,21 @@ a.active {
     padding: 20px 0px 5px 0px;
     text-transform: uppercase;
     letter-spacing: 0.250em;
-    color: #f89a16
+    color: #f89a16;
+    cursor: pointer;
 }
 
-.footer .column a {
+.Footer .Column a {
     text-decoration: none;
     color: white;
 }
 
-.footer .column ul {
+.Footer .Column ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.footer .column ul li {
+.Footer .Column ul li {
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
@@ -284,75 +287,87 @@ a.active {
     -webkit-transition: .2s;
     -moz-transition: .2s;
 }
-.social ul li {
+.Contacten ul li {
     display: inline-block;
     padding-right: 5px !important;
 }
 
-.footer .column ul li:hover {
+.Footer .Column a:hover {
     color: orange;
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
 }
-.clearfix {
+.Clearfix {
     clear: both;
 }
 @media only screen and (min-width: 1280px) {
-    .container {
+    .Container {
         width: 1200px;
         margin: 0 auto;
     }
 }
 @media only screen and (max-width: 1139px) {
-    .container .social {
+    .Container .Contacten {
         width: 1000px;
         display: block;
     }
-    .social h1 {
+    .Contacten h1 {
         margin: 0px;
     }
 }
 @media only screen and (max-width: 950px) {
-    .footer .column {
+    .Footer .Column {
         width: 33%;
     }
-    .footer .col h1 {
+    .Footer .Col h1 {
         font-size: 14px;
     }
-    .footer .col ul li {
+    .Footer .Col ul li {
         font-size: 13px;
     }
 }
 @media only screen and (max-width: 500px) {
-    .footer .column {
+    .Footer .Column {
         width: 50%;
     }
-    .footer .column h1 {
+    .Footer .Column h1 {
         font-size: 14px;
     }
-    .footer .col ul li {
+    .Footer .Col ul li {
         font-size: 13px;
     }
 }
 @media only screen and (max-width: 340px) {
-    .footer .column {
+    .Footer .Column {
         width: 100%;
     }
 }
 
-/*============================================End of Footer section==========================================================*/
-/*=====================================Begin "Back-to-top" button styling====================================================*/
+/*===========================================Einde van Footer sectie=========================================================*/
+/*=====================================Begin van "Back-to-top" knop stijl====================================================*/
 
-#terugnaarboven:hover {
+.Terug-Naar-Boven-Knop{
+    margin: 1%;
+    background-color: #B6A8FF;
+    border-width: 0px;
+    border-radius: 35px;
+    padding: 20px;
+    width: 15%;
+    height: 60px;
+    color: white;
+
+}
+
+#Terug-Naar-Boven-Knop:hover {
     background-color: #f89a16;
 }
-#terugnaarboven2:hover {
+#Terug-Naar-Boven-Knop-2:hover {
     background-color: #f89a16;
 
 }
 
-#terugnaarboven {
+#Terug-Naar-Boven-Knop {
     position: fixed;
     bottom: 0;
     right: 25px;
@@ -361,11 +376,11 @@ a.active {
     border-top-right-radius: 10px;
     padding: 0.5rem 2rem;
 }
-#terugnaarboven p {
+#Terug-Naar-Boven-Knop p {
     color: #1D1D1B;
     text-decoration: none;
 }
-#terugnaarboven2 {
+#Terug-Naar-Boven-Knop-2 {
     position: fixed;
     bottom: 0;
     right: 25px;
@@ -374,7 +389,7 @@ a.active {
     border-top-right-radius: 10px;
     padding: 1rem;
 }
-#terugnaarboven2 p {
+#Terug-Naar-Boven-Knop-2 p {
     color: #1D1D1B;
     font-size: 25pt;
     text-decoration: none;
@@ -382,7 +397,7 @@ a.active {
 }
 
 @media screen and (max-width: 882px) {
-    #terugnaarboven {
+    #Terug-Naar-Boven-Knop {
         display: none;
     }
     header ul li {
@@ -394,13 +409,13 @@ a.active {
 }
 
 @media screen and (min-width: 882px) {
-    #terugnaarboven2 {
+    #Terug-Naar-Boven-Knop-2 {
         display: none;
     }
 }
 
 @media screen and (min-width: 882px) {
-    #terugnaarboven2 {
+    #Terug-Naar-Boven-Knop-2 {
         display: none;
     }
 }

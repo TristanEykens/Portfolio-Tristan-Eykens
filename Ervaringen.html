@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Universal.css">
 </head>
 <body>
-<!-- Vanaf hier is header -->
+<!-- Begin Header sectie -->
 <div class="wrapper">
     <nav>
         <input type="checkbox" id="show-search">
@@ -18,9 +18,9 @@
             <div class="logo"><a href="./Home.html"><img src="Images/CroppedDragonHead.PNG" alt="Logo" id="logo"></a></div>
             <ul class="links">
                 <li>
-                    <a href="Home.html">Over mij</a>
-                    <input type="checkbox" id="show-home">
-                    <label for="show-home">Over mij</label>
+                    <a href="Home.html" class="desktop-link">Over mij</a>
+                    <input type="checkbox" id="show-Home">
+                    <label for="show-Home">Over mij</label>
                     <ul>
                         <li><a href="Home.html#Introductie">Introductie</a></li>
                         <li><a href="Home.html#Passie">Passie</a></li>
@@ -31,8 +31,8 @@
                 </li>
                 <li>
                     <a href="Hobbies.html" class="desktop-link">Hobbies</a>
-                    <input type="checkbox" id="show-prod">
-                    <label for="show-prod">Hobbies</label>
+                    <input type="checkbox" id="show-Hobbies">
+                    <label for="show-Hobbies">Hobbies</label>
                     <ul>
                         <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                         <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
@@ -43,8 +43,8 @@
                 </li>
                 <li>
                     <a href="Ervaringen.html" class="desktop-link">Ervaring</a>
-                    <input type="checkbox" id="show-Bereiding">
-                    <label for="show-Bereiding">Ervaring</label>
+                    <input type="checkbox" id="show-Ervaring">
+                    <label for="show-Ervaring">Ervaring</label>
                     <ul>
                         <li><a href="Ervaringen.html#Viio">Viio</a></li>
                         <li><a href="Ervaringen.html#PXL">PXL</a></li>
@@ -53,8 +53,8 @@
                 </li>
                 <li>
                     <a href="Werkplekleren.html" class="desktop-link">Werkplekleren 2</a>
-                    <input type="checkbox" id="show-about">
-                    <label for="show-about">Wpl 2</label>
+                    <input type="checkbox" id="show-WPL">
+                    <label for="show-WPL">Wpl 2</label>
                     <ul>
                         <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                         <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -67,7 +67,7 @@
         </div>
     </nav>
 </div>
-<!-- Tot hier is header -->
+<!-- Tot hier is Header sectie-->
 
 <div class="container">
     <h1>Mijn werk ervaringen en educatie</h1>
@@ -99,11 +99,11 @@
     </div>
 </div>
 
-<!-- FOOTER START -->
-<div class="footer">
-    <div class="container">
-        <div class="column">
-            <h1 href="Home.html">Over mij</h1>
+<!-- Begin van de Footer -->
+<div class="Footer">
+    <div class="Container">
+        <div class="Column">
+            <h1 Onclick="HomePageSwitch()">Over mij</h1>
             <ul>
                 <li><a href="Home.html#Introductie">Introductie</a></li>
                 <li><a href="Home.html#Passie">Passie</a></li>
@@ -112,8 +112,8 @@
                 <li><a href="Home.html#Interesse">Interesse?</a></li>
             </ul>
         </div>
-        <div class="column">
-            <h1 href="Hobbies.html">Hobbies</h1>
+        <div class="Column">
+            <h1 Onclick="HobbiesPageSwitch()">Hobbies</h1>
             <ul>
                 <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                 <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
@@ -122,16 +122,16 @@
                 <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
             </ul>
         </div>
-        <div class="column">
-            <h1 href="Ervaringen.html">Ervaring</h1>
+        <div class="Column">
+            <h1 Onclick="ErvaringPageSwitch()">Ervaring</h1>
             <ul>
                 <li><a href="Ervaringen.html">Viio</a></li>
                 <li><a href="Ervaringen.html">PXL</a></li>
                 <li><a href="Ervaringen.html">DELA</a></li>
             </ul>
         </div>
-        <div class="column">
-            <h1 href="Werkplekleren.html">Werkplekleren</h1>
+        <div class="Column">
+            <h1 Onclick="WPLPageSwitch()">Werkplekleren</h1>
             <ul>
                 <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                 <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -139,8 +139,8 @@
                 <li><a href="Werkplekleren.html#WerkpleklerenBronnen">Bronnen</a></li>
             </ul>
         </div>
-        <div class="column social">
-            <h1>Contact</h1>
+        <div class="Column Contacten">
+            <h1 Onclick="ContactPageSwitch()">Contact</h1>
             <a>+0471 58 09 23</a>
             <ul>
                 <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
@@ -148,9 +148,10 @@
                 <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
             </ul>
         </div>
-        <div class="clearfix"></div>
+        <div class="Clearfix"></div>
     </div>
 </div>
-<!-- END OF FOOTER -->
+<!-- Einde van de Footer -->
 </body>
+<script src="Universal.js"></script>
 </html>

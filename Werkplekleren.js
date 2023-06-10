@@ -15,19 +15,19 @@ function SwitchEindReflectie() {
 
 function switchtext()
 {
-    var btn = document.getElementById("ReflectieToggleBtn");
+    var btn = document.getElementById("WerkpleklerenReflectieToggleBtn");
     btn.value = 'my value';
-    if(btn.innerText=="Eindreflectie Werkplekleren 2"){
-        btn.innerText="Eindreflectie Werkplekleren 1";
+    if(btn.innerText==="Bekijk eindreflectie Werkplekleren 1!"){
+        btn.innerText="Bekijk eindreflectie Werkplekleren 2!";
     }
     else{
-        btn.innerText="Eindreflectie Werkplekleren 2";
+        btn.innerText="Bekijk eindreflectie Werkplekleren 1!";
     }
 }
 
 function PowerBarScroll(elementId) {
     const element = document.getElementById(elementId);
     if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({behavior: 'smooth'});
     }
 }

@@ -13,13 +13,16 @@ h1 {
     padding-bottom: 20px;
 }
 
-.Website-section {
+/*===========================================Einde van Pagina stijl========================================================*/
+/*=======================================Begin van Pasta Fresca sectie=====================================================*/
+
+.PastaFresca-section {
     background-color: #F3FAFE;
     width: 100%;
     height: 900px;
 }
 
-.Website-section h1 {
+.PastaFresca-section h1 {
     color: #1D1D1B;
 }
 
@@ -38,14 +41,14 @@ h1 {
     padding-left: 250px;
 }
 
-.Products-front-page {
+.TakenPastaFresca {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-.Individueel-product-vakje {
+.IndividueelTaakVakje {
     background: #F8B960;
     box-shadow: 0 0 20px black;
     padding: 2%;
@@ -56,15 +59,15 @@ h1 {
     text-align: center;
 }
 
-.Individueel-product-vakje p {
+.IndividueelTaakVakje p {
     padding: 0 45px;
 }
 
-.Individueel-product-vakje img {
+.IndividueelTaakVakje img {
     width: 25%;
 }
 
-.Bekijk-Ons-Aanbod-Knop-Div {
+.Knop-Bekijk-Div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +94,13 @@ h1 {
 
 
 
-/*Code used by "Projects.html"*/
-.Projects{
-    background-color: #938CB4;
+/*Code used by "Projecten sectie"*/
+.ProjectenTitels{
+    padding-top: 40px;
+}
+
+.Projecten{
+    background-color: transparent;
     border-radius: 30px;
     width: 700px;
     display: flex;
@@ -101,11 +108,11 @@ h1 {
     align-items: center;
 }
 
-.uitklapmenu{
+.UitklapMenu{
     width: 600px;
 }
 
-.uitklapmenu li{
+.UitklapMenu li{
     list-style: none;
     width: 100%;
     margin: 20px;
@@ -114,7 +121,7 @@ h1 {
     box-shadow: 6px 6px 10px -1px black;
 }
 
-.uitklapmenu li label{
+.UitklapMenu li label{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -124,18 +131,18 @@ h1 {
     background-color: #D8D1FF;
 }
 
-.uitklapmenu label::before{
+.UitklapMenu label::before{
     content: '+';
     margin-right: 10px;
     font-size: 24px;
     font-weight: 600;
 }
 
-input[type="radio"]{
+input[type="checkbox"]{
     display: none;
 }
 
-.uitklapmenu .content{
+.UitklapMenu .content{
     color: #555;
     padding: 0 10px;
     line-height: 26px;
@@ -144,16 +151,16 @@ input[type="radio"]{
     transition: max-height 0.5s, padding 0.5s;
 }
 
-.uitklapmenu input[type="radio"]:checked + label + .content{
+.UitklapMenu input[type="checkbox"]:checked + label + .content{
     max-height: 400px;
     padding: 10px 10px 20px;
 }
 
-.uitklapmenu input[type="radio"]:checked + label::before{
+.UitklapMenu input[type="checkbox"]:checked + label::before{
     content: '-';
 }
 
-.application_icon{
+.ApplicatieIcoon{
     height: 100px;
     width: 100px;
 }
@@ -184,17 +191,7 @@ input[type="radio"]{
     padding-bottom: 100px;
 }
 
-.back_to_top_button{
-    margin: 1%;
-    background-color: #B6A8FF;
-    border-width: 0px;
-    border-radius: 35px;
-    padding: 20px;
-    width: 15%;
-    height: 60px;
-    color: white;
 
-}
 
 hr.divider {
     border-radius: 2px;
