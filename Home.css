@@ -1,58 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/*====================Deze pagina word gebruikt door zowel Home.html als Hobbies.html======================================*/
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Lato, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    background-color: #22252A;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+background-attachment: fixed;
+color: #000;
+font-size: 120%;
+line-height: 1.618;
 }
 
 h1 {
-    color: #F8B960;
-    font-family: Mr Alex, sans-serif;
-    font-size: 50px;
+color: #F39200;
+font-size: 50px;
+font-family: Mr Alex, sans-serif;
+}
+
+h1, h2 {
+font-size: 3em;
+letter-spacing: -0.05em;
+line-height: 1.1;
+}
+
+p {
+max-width: 30em;
+margin-bottom: 1.618em;
+}
+
+i {
+cursor: pointer;
 }
 
 /* panel styles */
 .panel {
-    /* min height incase content is higher than window height */
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: sans-serif;
-    /* outline: 10px solid hotpink; */
-    /* turn above on to see the edge of panels */
+/* min height incase content is higher than window height */
+min-height: 100vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* turn above on to see the edge of panels */
 }
 
-/* styling for demo, can ignore */
-body {
-    font-size: 120%;
-    line-height: 1.618;
-}
-h1, h2 {
-    font-size: 3em;
-    letter-spacing: -0.05em;
-    line-height: 1.1;
-}
-p {
-    max-width: 30em;
-    margin-bottom: 1.618em;
-}
-a {
-    color: #4332CF;
-}
-
-/* Setting fade transition and default settings */
-body {
-    color: #000;
-    background-color: #f4f4f4;
-    transition: background-color 1s ease;
+.SterrenTekst h2, .SterrenTekst p{
+color: #F39200;
 }

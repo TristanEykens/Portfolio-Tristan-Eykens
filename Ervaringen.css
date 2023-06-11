@@ -53,7 +53,7 @@ p{
 }
 
 .PXL-logo img,.VIIO-logo img,.DELA-logo img{
-    width: 100%;
+    width: 80%;
     box-shadow: 15px 15px 15px black;
 }
 
@@ -63,3 +63,4 @@ hr.divider {
     border-radius: 2px;
     border-color: white;
 }
+

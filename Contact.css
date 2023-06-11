@@ -2,7 +2,6 @@ body{
     color: rgb(48, 46, 46);
     background-color: rgb(48, 46, 46);
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
     text-align: center;
 }
 hr{
@@ -55,5 +54,5 @@ hr.divider {
 }
 
 .Footer {
-    padding-top: 35px;
+    padding-top: 1.8%;
 }

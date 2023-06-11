@@ -5,7 +5,15 @@
 
     text-decoration: none;
     scroll-behavior: smooth;    /*gives the go-to-top button a smooth scrolling effect*/
-    font-family: Lato, sans-serif;
+    font-family: Roboto, serif;
+}
+
+body {
+    transition: background-color 1s ease;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*=========================================Einde van Universele sectie=====================================================*/
@@ -43,7 +51,7 @@ nav i {
     font-size: 20pt;
 }
 nav i:hover {
-    color: #f8b960;
+    color: #F39200;
 }
 
 #logo {
@@ -53,7 +61,7 @@ nav i:hover {
 }
 
 #logo:hover {
-    box-shadow: 0px 5px 8px 3px orange;
+    box-shadow: 0px 5px 8px 3px #F39200;
 }
 
 .content .links li{
@@ -74,10 +82,10 @@ nav i:hover {
 }
 .content .links li a:hover,
 .content .links li label:hover{
-    color: #f8b960;
+    color: #F39200;
 }
 a.active {
-    color: #f8b960 !important;
+    color: #F39200 !important;
 }
 
 .wrapper .menu-icon{
@@ -257,13 +265,12 @@ a.active {
 }
 .Footer .Column h1 {
     margin: 0;
-    font-family: inherit;
     font-size: 16px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
     text-transform: uppercase;
-    letter-spacing: 0.250em;
-    color: #f89a16;
+    letter-spacing: 0.100em;
+    color: #F39200;
     cursor: pointer;
 }
 
@@ -279,7 +286,6 @@ a.active {
 }
 .Footer .Column ul li {
     font-size: 14px;
-    font-family: inherit;
     font-weight: bold;
     padding: 5px 0px 5px 0px;
     cursor: pointer;
@@ -293,7 +299,7 @@ a.active {
 }
 
 .Footer .Column a:hover {
-    color: orange;
+    color: #F39200;
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
@@ -360,10 +366,10 @@ a.active {
 }
 
 #Terug-Naar-Boven-Knop:hover {
-    background-color: #f89a16;
+    background-color: #F39200;
 }
 #Terug-Naar-Boven-Knop-2:hover {
-    background-color: #f89a16;
+    background-color: #F39200;
 
 }
 
