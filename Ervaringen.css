@@ -1,8 +1,7 @@
 body{
-    color: rgb(48, 46, 46);
-    background-color: rgb(48, 46, 46);
+    color: #3C3C3B;
+    background-color: #3C3C3B;
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
     text-align: center;
 }
 hr{
@@ -40,7 +39,7 @@ p{
     border-radius: 15px;
     text-align: center;
     min-width: 250px;
-    background-color: rgb(48, 46, 46);
+    background-color: transparent;
 }
 .customer-care{
     height: 250px;

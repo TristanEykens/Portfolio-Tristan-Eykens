@@ -1,6 +1,6 @@
 body{
-    color: rgb(48, 46, 46);
-    background-color: rgb(48, 46, 46);
+    color: #3C3C3B;
+    background-color: #3C3C3B;
     box-sizing: border-box;
     text-align: center;
 }
@@ -10,7 +10,7 @@ hr{
 h1, h2, h5{
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #F3FAFE;
 }
 a{
     font-size: 16px;
@@ -28,7 +28,7 @@ p{
     padding-bottom: 100px;
 }
 .contact-items h1, h2, h5{
-    color: #5A3F19;
+    color: #F3FAFE;
 }
 .telephone,.email,.socials,.location{
     display: flex;
@@ -44,6 +44,10 @@ p{
     box-shadow: 0 15px 15px black;
     border: 1px solid black;
     height: 250px;
+}
+
+.telephone h2,.email h2,.socials h2,.location h2 {
+    color: #5A3F19;
 }
 
 hr.divider {

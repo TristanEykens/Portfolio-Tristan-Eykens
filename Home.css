@@ -1,4 +1,4 @@
-/*====================Deze pagina word gebruikt door zowel Home.html als Hobbies.html======================================*/
+/*Deze pagina word gebruikt door zowel Home.html als Hobbies.html*/
 
 * {
 margin: 0;
@@ -19,7 +19,6 @@ line-height: 1.618;
 h1 {
 color: #F39200;
 font-size: 50px;
-font-family: Mr Alex, sans-serif;
 }
 
 h1, h2 {
@@ -37,16 +36,15 @@ i {
 cursor: pointer;
 }
 
-/* panel styles */
+/* panel stijlen */
 .panel {
-/* min height incase content is higher than window height */
-min-height: 100vh;
+min-height: 100vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
 display: flex;
 justify-content: space-around;
 align-items: center;
-/* turn above on to see the edge of panels */
 }
 
+/* Grote blok voor idividuele foto's te stijlen */
 .IntroductieFoto, .PassieFoto, .InteresseFoto, .LezenFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
     box-shadow: 0 15px 15px black;
 }
@@ -64,9 +62,10 @@ align-items: center;
 }
 
 .SterrenTekst h2, .SterrenTekst p{
-color: #F39200;
+color: #F3FAFE;
 }
 
+/* Hier start de stijl van de vaardigheid balkjes op de Home pagina */
 .resume_skills ul li{
     display: flex;
     margin-bottom: 10px;
@@ -97,3 +96,4 @@ color: #F39200;
     height: 100%;
     background: #96FA77;
 }
+/* Hier eindigt de stijl van de vaardigheid balkjes op de Home pagina */
