@@ -40,8 +40,8 @@ $(window).scroll(function () {
         var boxPos = $('#WerkpleklerenWebsiteSectie').offset().top;
 
         /* De 500 verwijst naar hoeveel pixels van de bodem van je scherm de sectie moet zijn eer hij de kleur veranderd.
-        De 300 verwijst dan naar hoeveel pixels hij moet zijn vanaf de top van je scherm voordat hij de kleur terug zet zoals daarvoor.*/
-if(boxPos <= bottomOfWindow-500 && boxPos >= topOfWindow-300){
+        De tweede 500 verwijst dan naar hoeveel pixels hij moet zijn vanaf de top van je scherm voordat hij de kleur terug zet zoals daarvoor.*/
+if(boxPos <= bottomOfWindow-500 && boxPos >= topOfWindow-500){
     $("body").css("background-color", "#1D1D1B");
     $("#Terug-Naar-Boven-Knop").css("background-color", "#F8B960");
 }
