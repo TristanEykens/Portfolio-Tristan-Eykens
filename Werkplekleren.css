@@ -10,88 +10,8 @@ h1 {
 }
 
 /*===========================================Einde van Pagina stijl========================================================*/
-/*=======================================Begin van Pasta Fresca sectie=====================================================*/
+/*=========================================Begin van Projecten sectie======================================================*/
 
-.PastaFresca-section {
-    background-color: transparent;
-    width: 100%;
-    height: 900px;
-}
-
-.PastaFresca-section h1 {
-    color: #1D1D1B;
-}
-
-.Titel_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 2.5%;
-    text-align: Left;
-    font-size: 35px;
-}
-
-.Titel_div h1 {
-    color: #F8B960;
-}
-
-.Titel_div img {
-    width: 80%;
-    padding-left: 250px;
-}
-
-.TakenPastaFresca {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.IndividueelTaakVakje {
-    background: #F8B960;
-    box-shadow: 0 0 20px black;
-    padding: 2%;
-    margin: 1%;
-    border-radius: 25px;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-
-.IndividueelTaakVakje p {
-    padding: 0 45px;
-}
-
-.IndividueelTaakVakje img {
-    width: 25%;
-}
-
-.Knop-Bekijk-Div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 100px;
-}
-
-.Knop-Bekijk {
-    margin: 1.5%;
-    background-color: #1D1D1B;
-    color: #F3FAFE;
-    border-width: 0px;
-    border-radius: 35px;
-    padding: 15px;
-    width: 100%;
-    height: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-/*Code used by "Projecten sectie"*/
 .ProjectenTitels{
     padding-top: 40px;
 }
@@ -162,15 +82,98 @@ input[type="checkbox"]{
     width: 100px;
 }
 
+/*=========================================Einde van Projecten sectie======================================================*/
+/*=======================================Begin van Pasta Fresca sectie=====================================================*/
 
+.PastaFresca-section {
+    background-color: transparent;
+    width: 100%;
+    height: 900px;
+}
 
+.PastaFresca-section h1 {
+    color: #1D1D1B;
+}
 
+.Titel_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2.5%;
+    text-align: Left;
+    font-size: 35px;
+}
+
+.Titel_div h1 {
+    color: #F8B960;
+    padding-left: 250px;
+}
+
+.Titel_div img {
+    width: 80%;
+    padding-left: 250px;
+}
+
+#IntroPastaFresca{
+    padding-left: 19%;
+    color: #F8B960;
+}
+
+.TakenPastaFresca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.IndividueelTaakVakje {
+    background: #F8B960;
+    box-shadow: 0 0 20px black;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 25px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.IndividueelTaakVakje p {
+    padding: 0 45px;
+}
+
+.IndividueelTaakVakje img {
+    width: 25%;
+}
+
+.Knop-Bekijk-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.Knop-Bekijk {
+    margin: 1.5%;
+    background-color: #1D1D1B;
+    color: #F3FAFE;
+    border-width: 0px;
+    border-radius: 35px;
+    padding: 15px;
+    width: 100%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 #Eindreflectie-1 {
     display: none;
 }
 
-#Eindreflectie-1, #Eindreflectie-2 {
+#Eindreflectie-1, #Eindreflectie-2, #IntroPastaFresca {
     padding-bottom: 50px;
 }
 

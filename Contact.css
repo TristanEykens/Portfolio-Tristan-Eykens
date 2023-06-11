@@ -2,15 +2,16 @@ body{
     color: #3C3C3B;
     background-color: #3C3C3B;
     box-sizing: border-box;
-    text-align: center;
 }
 hr{
     width: 80%;
 }
 h1, h2, h5{
     font-size: 20px;
-    text-align: center;
     color: #F3FAFE;
+}
+h1, h2 {
+    text-align: center;
 }
 a{
     font-size: 16px;
