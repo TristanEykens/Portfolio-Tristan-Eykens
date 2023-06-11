@@ -47,6 +47,53 @@ align-items: center;
 /* turn above on to see the edge of panels */
 }
 
+.IntroductieFoto, .PassieFoto, .InteresseFoto, .LezenFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
+    box-shadow: 0 15px 15px black;
+}
+
+.IntroductieFoto {
+    border-radius: 50%;
+}
+
+.PassieFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
+    width: 40%;
+}
+
+.InteresseFoto, .LezenFoto {
+    border-radius: 30%;
+}
+
 .SterrenTekst h2, .SterrenTekst p{
 color: #F39200;
+}
+
+.resume_skills ul li{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume_skills ul li .skill_name {
+    width: 25%;
+}
+
+.resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 15px;
+    background: #fff;
+    position: relative;
+}
+
+.resume_skills ul li .skill_per {
+    width: 15%;
+}
+
+.resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #96FA77;
 }
