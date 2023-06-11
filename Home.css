@@ -53,7 +53,7 @@ align-items: center;
     border-radius: 50%;
 }
 
-.PassieFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
+.PassieFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto, .SterrenFoto{
     width: 40%;
 }
 

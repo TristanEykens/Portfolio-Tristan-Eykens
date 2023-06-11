@@ -19,6 +19,9 @@ p{
     font-size: 15px;
     color: #5A3F19;
 }
+#icon {
+    width: 50px;
+}
 
 .contact-items{
     display: flex;
