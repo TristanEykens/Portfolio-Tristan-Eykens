@@ -1,5 +1,5 @@
 body{
-    background-color: #F3FAFE;
+    background-color: #1D1D1B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,7 @@ body{
 
 h1 {
     padding-bottom: 20px;
+    color: #ff002b;
 }
 
 /*===========================================Einde van Pagina stijl========================================================*/
@@ -27,6 +28,11 @@ h1 {
 
 .UitklapMenu{
     width: 600px;
+    color: #F3FAFE;
+}
+
+.UitklapMenu a{
+    color: #ff002b;
 }
 
 .UitklapMenu li{
@@ -34,8 +40,8 @@ h1 {
     width: 100%;
     margin: 20px;
     border-radius: 8px;
-    background: #FFFFFF;
-    box-shadow: 6px 6px 10px -1px black;
+    background: #3C3C3B;
+    box-shadow: 6px 6px 10px -1px #ff002b;
 }
 
 .UitklapMenu li label{
@@ -45,7 +51,7 @@ h1 {
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    background-color: #D8D1FF;
+    background-color: #070D0D;
 }
 
 .UitklapMenu label::before{
@@ -60,7 +66,7 @@ input[type="checkbox"]{
 }
 
 .UitklapMenu .content{
-    color: #555;
+    color: #F3FAFE;
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
@@ -106,7 +112,7 @@ input[type="checkbox"]{
 }
 
 .Titel_div h1 {
-    color: #F8B960;
+    color: #ff002b;
     padding-left: 250px;
 }
 
@@ -117,7 +123,7 @@ input[type="checkbox"]{
 
 #IntroPastaFresca{
     padding-left: 19%;
-    color: #F8B960;
+    color: #F3FAFE;
 }
 
 .TakenPastaFresca {
@@ -128,8 +134,9 @@ input[type="checkbox"]{
 }
 
 .IndividueelTaakVakje {
-    background: #F8B960;
-    box-shadow: 0 0 20px black;
+    background: transparent;
+    color: #ff002b;
+    border: 6px solid #ff002b;
     padding: 2%;
     margin: 1%;
     border-radius: 25px;
@@ -140,6 +147,7 @@ input[type="checkbox"]{
 
 .IndividueelTaakVakje p {
     padding: 0 45px;
+    color: #F3FAFE;
 }
 
 .IndividueelTaakVakje img {
@@ -156,7 +164,7 @@ input[type="checkbox"]{
 
 .Knop-Bekijk {
     margin: 1.5%;
-    background-color: #1D1D1B;
+    background-color: #070D0D;
     color: #F3FAFE;
     border-width: 0px;
     border-radius: 35px;
@@ -169,10 +177,15 @@ input[type="checkbox"]{
     flex-direction: column;
 }
 
+.Knop-Bekijk:hover {
+    box-shadow: 0px 0px 15px 0px #ff002b;
+}
+
 /*=======================================Einde van Pasta Fresca sectie=====================================================*/
 /*======================================Begin van Eindreflectie sectie=====================================================*/
 .EindreflectiesDiv {
     padding-top: 70px;
+    color: white;
 }
 
 #Eindreflectie-1 {
@@ -195,13 +208,14 @@ input[type="checkbox"]{
 
 .Bronnen {
     padding-bottom: 100px;
+    color: white;
 }
 
 
 
 hr.divider {
     border-radius: 2px;
-    border-color: #B6A8FF;
+    border-color: #ff002b;
     width: 80%;
 }
 
@@ -234,7 +248,9 @@ button {
     overflow: hidden;
     z-index: 1;
     border: none;
-    background-color: #B6A8FF;
+    background-color: #070D0D;
+    color: #F3FAFE;
+    box-shadow: 0px 0px 15px 0px #ff002b;
 }
 .button::before {
     content: '';
@@ -245,7 +261,7 @@ button {
     top: 0;
     left: 0;
     background-image: linear-gradient(to
-    right, #E6332A 0%, #F39200 50%, yellow 100%);
+    right, #ff002b 0%, #F39200 50%, yellow 100%);
     transition: .3s ease;
     display: block;
     z-index: -1;

@@ -1,30 +1,32 @@
 /*Deze pagina word gebruikt door zowel Home.html als Hobbies.html*/
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-background-size: cover;
-background-repeat: no-repeat;
-background-position: bottom;
-background-attachment: fixed;
-color: #000;
-font-size: 120%;
-line-height: 1.618;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: white;
+    background-color: #1D1D1B;
+    font-size: 120%;
+    line-height: 1.618;
 }
 
 h1 {
-color: #F39200;
-font-size: 50px;
+    color: #ff002b;
+    font-size: 50px;
 }
 
 h1, h2 {
-font-size: 3em;
-letter-spacing: -0.05em;
-line-height: 1.1;
+    color: #ff002b;
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
 }
 
 p {
@@ -38,15 +40,109 @@ cursor: pointer;
 
 /* panel stijlen */
 .panel {
-min-height: 100vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
+min-height: 70vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
 display: flex;
 justify-content: space-around;
 align-items: center;
 }
 
+/* skills wrapper stijl */
+.block {
+    width: 70%;
+    padding: 30px 30px 50px;
+    border-radius: 10px;
+}
+
+.block h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3FAFE;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+    border-radius: 20px;
+    background: #3C3C3B;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #ff002b;
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 55%;
+    }
+}
+
+#javascript-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 30%;
+    }
+}
+
+#illustrator-bar {
+    animation: ill-fill 2s forwards;
+}
+@keyframes ill-fill {
+    100%{
+        width: 85%;
+    }
+}
+
+#photoshop-bar {
+    animation: pho-fill 2s forwards;
+}
+@keyframes pho-fill {
+    100%{
+        width: 80%;
+    }
+}
+
+#xd-bar {
+    animation: xd-fill 2s forwards;
+}
+@keyframes xd-fill {
+    100%{
+        width: 80%;
+    }
+}
+
 /* Grote blok voor idividuele foto's te stijlen */
 .IntroductieFoto, .PassieFoto, .InteresseFoto, .LezenFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
-    box-shadow: 0 15px 15px black;
+    box-shadow: -15px 15px 15px 0px black;
 }
 
 .IntroductieFoto {
@@ -58,14 +154,13 @@ align-items: center;
 }
 
 .InteresseFoto, .LezenFoto {
-    border-radius: 30%;
-}
 
-.SterrenTekst h2, .SterrenTekst p{
-color: #F3FAFE;
 }
 
 /* Hier start de stijl van de vaardigheid balkjes op de Home pagina */
+.resume_skills h1 {
+    color: white;
+}
 .resume_skills ul li{
     display: flex;
     margin-bottom: 10px;
@@ -81,7 +176,7 @@ color: #F3FAFE;
     width: 60%;
     margin: 0 5px;
     height: 15px;
-    background: #fff;
+    background: #3C3C3B;
     position: relative;
 }
 
@@ -94,6 +189,6 @@ color: #F3FAFE;
     top: 0;
     left: 0;
     height: 100%;
-    background: #96FA77;
+    background: #ff002b;
 }
 /* Hier eindigt de stijl van de vaardigheid balkjes op de Home pagina */

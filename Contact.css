@@ -1,16 +1,18 @@
 body{
-    color: #3C3C3B;
-    background-color: #3C3C3B;
+    color: #1D1D1B;
+    background-color: #1D1D1B;
     box-sizing: border-box;
 }
 hr{
     width: 80%;
 }
-h1, h2, h5{
-    font-size: 20px;
+h1, h5{
+    color: #ff002b;
+}
+h3 {
     color: #F3FAFE;
 }
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
 }
 a{
@@ -18,7 +20,7 @@ a{
 }
 p{
     font-size: 15px;
-    color: #5A3F19;
+    color: #F3FAFE;
 }
 #icon {
     width: 50px;
@@ -44,21 +46,20 @@ p{
     border-radius: 15px;
     text-align: center;
     min-width: 250px;
-    background-color: #FDECD3;
-    box-shadow: 0 15px 15px black;
-    border: 1px solid black;
+    background-color: transparent;
+    border: 6px solid #ff002b;
     height: 250px;
 }
 
 .telephone h2,.email h2,.socials h2,.location h2 {
-    color: #5A3F19;
+    color: #F3FAFE;
 }
 
 hr.divider {
     width: 150px;
-    color: #5A3F19;
+    color: #ff002b;
     border-radius: 2px;
-    border-color: #5A3F19;
+    border-color: #ff002b;
 }
 
 .Footer {

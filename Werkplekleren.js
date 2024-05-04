@@ -43,11 +43,11 @@ $(window).scroll(function () {
         De tweede 500 verwijst dan naar hoeveel pixels hij moet zijn vanaf de top van je scherm voordat hij de kleur terug zet zoals daarvoor.*/
 if(boxPos <= bottomOfWindow-500 && boxPos >= topOfWindow-500){
     $("body").css("background-color", "#1D1D1B");
-    $("#Terug-Naar-Boven-Knop").css("background-color", "#F8B960");
+    /*$("#Terug-Naar-Boven-Knop").css("background-color", "#F8B960");*/
 }
 else{
-    $("body").css("background-color", "#F3FAFE");
-    $("#Terug-Naar-Boven-Knop").css("background-color", "#B6A8FF");
+    $("body").css("background-color", "#1D1D1B");
+    $("#Terug-Naar-Boven-Knop").css("background-color", "#ff002b");
 }
 });
 });

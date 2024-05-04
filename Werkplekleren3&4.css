@@ -1,5 +1,5 @@
 body{
-    background-color: #F3FAFE;
+    background-color: #1D1D1B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +8,12 @@ body{
 h1 {
     padding-bottom: 20px;
     padding-top: 100px;
+    color: #ff002b;
 }
 
 h2 {
     padding-bottom: 20px;
+    color: white;
 }
 
 .TakenWPL3\&4Part2 {
@@ -28,3 +30,4 @@ video {
     height: 500px;
     padding-bottom: 50px;
 }
+

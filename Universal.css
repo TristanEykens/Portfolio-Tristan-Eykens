@@ -5,7 +5,7 @@
 
     text-decoration: none;
     scroll-behavior: smooth;    /*gives the go-to-top button a smooth scrolling effect*/
-    font-family: Roboto, serif;
+    font-family: "Fira Code Retina", sans-serif;
 }
 
 body {
@@ -24,7 +24,7 @@ a {
     padding-bottom: 1rem;
     margin-bottom: 3rem;
     width: 100%;
-    background-color: #1D1D1B;
+    background-color: #070D0D;
     z-index: 3;
     position: relative;
 }
@@ -42,7 +42,7 @@ nav .content{
     align-items: center;
 }
 nav .content .links{
-    margin-left: 200px;
+    margin-left: 300px;
     display: flex;
 }
 nav i {
@@ -51,19 +51,19 @@ nav i {
     font-size: 20pt;
 }
 nav i:hover {
-    color: #F39200;
+    color: #ff002b;
 }
 
 #logo {
-    width: 7.5rem;
-    height: 7.5rem;
-    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
 }
-
+/*
 #logo:hover {
-    box-shadow: 0px 5px 8px 3px #F39200;
+    border-radius: 50%;
+    box-shadow: 0px 5px 8px 3px #ff002b;
 }
-
+*/
 .content .links li{
     list-style: none;
     line-height: 70px;
@@ -82,10 +82,10 @@ nav i:hover {
 }
 .content .links li a:hover,
 .content .links li label:hover{
-    color: #F39200;
+    color: #ff002b;
 }
 a.active {
-    color: #F39200 !important;
+    color: #ff002b !important;
 }
 
 .wrapper .menu-icon{
@@ -119,7 +119,7 @@ a.active {
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
-    background-color: #1D1D1B;
+    background-color: #070D0D;
 }
 .content .links ul li a{
     display: block;
@@ -163,7 +163,7 @@ a.active {
     nav .content .links{
         display: block;
         position: fixed;
-        background-color: #1D1D1B;
+        background-color: #070D0D;
         height: 100%;
         width: 100%;
         top: 70px;
@@ -236,8 +236,8 @@ a.active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #1D1D1B;
-    color: white;
+    background-color: transparent;
+    color: #F3FAFE;
     padding: 25px 60px;
     margin-bottom: 30px;
 }
@@ -249,10 +249,11 @@ a.active {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: #1D1D1B;
+    background-color: #070D0D;
     justify-content: center;
     align-content: center;
     align-items: center;
+    box-shadow: 0px 0px 30px 0px #ff002b;
 }
 .Footer .Column {
     width: 240px;
@@ -270,7 +271,7 @@ a.active {
     padding: 20px 0px 5px 0px;
     text-transform: uppercase;
     letter-spacing: 0.100em;
-    color: #F39200;
+    color: #ff002b;
     cursor: pointer;
 }
 
@@ -300,7 +301,7 @@ a.active {
 }
 
 .Footer .Column a:hover {
-    color: #F39200;
+    color: #ff002b;
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
@@ -356,7 +357,7 @@ a.active {
 
 .Terug-Naar-Boven-Knop{
     margin: 1%;
-    background-color: #B6A8FF;
+    background-color: #ff002b;
     border-width: 0px;
     border-radius: 35px;
     padding: 20px;
@@ -367,10 +368,10 @@ a.active {
 }
 
 #Terug-Naar-Boven-Knop:hover {
-    background-color: #F39200;
+    background-color: #ff002b;
 }
 #Terug-Naar-Boven-Knop-2:hover {
-    background-color: #F39200;
+    background-color: #ff002b;
 
 }
 
@@ -378,26 +379,26 @@ a.active {
     position: fixed;
     bottom: 0;
     right: 25px;
-    background-color: #B6A8FF;
+    background-color: #ff002b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0.5rem 2rem;
 }
 #Terug-Naar-Boven-Knop p {
-    color: #1D1D1B;
+    color: #070D0D;
     text-decoration: none;
 }
 #Terug-Naar-Boven-Knop-2 {
     position: fixed;
     bottom: 0;
     right: 25px;
-    background-color: #B6A8FF;
+    background-color: #ff002b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 1rem;
 }
 #Terug-Naar-Boven-Knop-2 p {
-    color: #1D1D1B;
+    color: #070D0D;
     font-size: 25pt;
     text-decoration: none;
     text-align: center;
