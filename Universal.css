@@ -57,13 +57,17 @@ nav i:hover {
 #logo {
     width: 6.5rem;
     height: 6.5rem;
+    border-radius: 90px;
+    scale: 122%;
 }
-/*
+
 #logo:hover {
-    border-radius: 50%;
-    box-shadow: 0px 5px 8px 3px #ff002b;
+    content: url("Icons/SpinningArrowsLogoEnergetic.gif");
+    display: inline-block;
+    border-radius: 90px;
+    scale: 122%;
 }
-*/
+
 .content .links li{
     list-style: none;
     line-height: 70px;
@@ -229,7 +233,7 @@ a.active {
 
 }
 
-/*===========================================Begin van Header sectie=======================================================*/
+/*===========================================Einde van Header sectie=======================================================*/
 /*=======================================Begin van Nav Bar stijl sectie====================================================*/
 
 .navbar {
@@ -259,6 +263,7 @@ a.active {
     width: 240px;
     height: auto;
     float: left;
+    cursor: pointer;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -272,13 +277,11 @@ a.active {
     text-transform: uppercase;
     letter-spacing: 0.100em;
     color: #ff002b;
-    cursor: pointer;
 }
 
 .Footer .Column a {
     text-decoration: none;
     color: white;
-    font-family: Arial;
 }
 
 .Footer .Column ul {
@@ -290,7 +293,6 @@ a.active {
     font-size: 14px;
     font-weight: bold;
     padding: 5px 0px 5px 0px;
-    cursor: pointer;
     transition: .2s;
     -webkit-transition: .2s;
     -moz-transition: .2s;
@@ -302,13 +304,23 @@ a.active {
 
 .Footer .Column a:hover {
     color: #ff002b;
-    transition: .1s;
+    transition: .2s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
 }
 .Clearfix {
     clear: both;
 }
+
+.SocialIcon {
+    width: 45px;
+    transition: transform 0.5s ease;
+}
+
+.SocialIcon:hover {
+    transform: scale(1.25);
+}
+
 @media only screen and (min-width: 1280px) {
     .Container {
         width: 1200px;

@@ -15,7 +15,7 @@
         <input type="checkbox" id="show-menu">
         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
         <div class="content">
-            <div class="logo"><a href="./Home.html"><img src="Icons/LogoGrootStatisch.png" alt="Logo" id="logo"></a></div>
+            <div class="logo"><a href="./Home.html"><img src="Icons/SpinningArrowsLogoIdle.gif" alt="Logo" id="logo"></a></div>
             <ul class="links">
                 <li>
                     <a href="Home.html" class="desktop-link">Over mij</a>
@@ -86,13 +86,13 @@
     <h1>Heb ik je verleid met mijn charmes?</h1><br>
     <h3>Of misschien had je gewoon een vraag voor mij? Contacteer mij en laat het weten!</h3>
     <div class="contact-items">
-        <div class="telephone">
+        <div class="telephone" href="tel:+32 471 58 09 23">
             <img class="ContactIcon" src="Icons/IcoonTelefoon.png" alt="phone"><br>
             <h3>Bel mij!</h3><br>
             <hr class="divider"><br>
             <p>+32 471 58 09 23</p>
         </div>
-        <div class="email">
+        <div class="email" onclick="sendEmail();">
             <img class="ContactIcon" src="Icons/IcoonMail.png" alt="mail"><br>
             <h3>E-mail mij!</h3><br>
             <hr class="divider"><br>
@@ -170,9 +170,9 @@
             <h5 Onclick="ContactPageSwitch()">Contact</h5>
             <a>+32 471 58 09 23</a>
             <ul>
-                <li><a href="https://www.linkedin.com/in/tristan-eykens-66a283201"><img class="SocialIcon" src="Icons/IcoonLinkedIn.png" alt="linkedin" style="width: 45px;"></a></li>
-                <li><a href="https://www.facebook.com/tristan.eykens/"><img class="SocialIcon" src="Icons/IcoonFacebook.png" alt="facebook" style="width: 45px;"></a></li>
-                <li><a href="https://www.youtube.com/channel/UCx9YB5FoRxkSAkwCjp9wCFA"><img class="SocialIcon" src="Icons/IcoonYoutube.png" alt="youtube" style="width: 45px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/tristan-eykens-66a283201"><img class="SocialIcon" src="Icons/IcoonLinkedIn.png" alt="linkedin"></a></li>
+                <li><a href="https://www.facebook.com/tristan.eykens/"><img class="SocialIcon" src="Icons/IcoonFacebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCx9YB5FoRxkSAkwCjp9wCFA"><img class="SocialIcon" src="Icons/IcoonYoutube.png" alt="youtube"></a></li>
             </ul>
         </div>
         <div class="Clearfix"></div>
@@ -180,5 +180,6 @@
 </div>
 <!-- Einde van de Footer -->
 </body>
+<script src="Contact.js"></script>
 <script src="Universal.js"></script>
 </html>

@@ -1,25 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Lato, sans-serif;
-}
-
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-    color: #000;
+    background-color: #1D1D1B;
     transition: background-color 1s ease;
-    font-family: sans-serif;
-    background-color: #22252A;
 }
 
 h1 {
     font-size: 50px;
-    font-family: Mr Alex, sans-serif;
 }
 
 i {
@@ -31,32 +17,133 @@ a {
     color: white;
 }
 
-/* panel styles */
+/*---------------------------------Paneel Stijlen---------------------------------------*/
 .panel {
     /* min height incase content is higher than window height */
-    min-height: 100vh;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: sans-serif;
     /* outline: 10px solid hotpink; */
     /* turn above on to see the edge of panels */
 }
 
-/* styling for demo, can ignore */
-body {
-    font-size: 120%;
-    line-height: 1.618;
+#HobbiesPhotoshop, #HobbiesAnimatie\&VideoEditing {
+    margin-top: 120px;
 }
-h1, h2 {
-    font-size: 3em;
-    letter-spacing: -0.05em;
-    line-height: 1.1;
+
+/*---------------------------------PersoonlijkeOntwerpen---------------------------------*/
+.h2MyWork {
+    text-align: center;
 }
-p {
-    max-width: 30em;
-    margin-bottom: 1.618em;
+
+.PersoonlijkeOntwerpen {
+    position: relative;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 65%;
 }
-a {
-    color: #4332CF;
+
+.Ontwerp1, .Ontwerp2, .Ontwerp3 {
+    width: 400px;
+    height: 400px;
+    background-color: #070D0D;
+    box-shadow: 0 15px 15px black;
+    border-radius: 3%;
+    transition: transform 0.3s ease-in-out
+}
+
+.Ontwerp1 img, .Ontwerp2 img, .Ontwerp3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    transition: visibility 1s linear, opacity 1s linear;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.Ontwerp1:hover, .Ontwerp2:hover, .Ontwerp3:hover {
+    transform: scale(1.1, 1.1);
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 0px 0px 15px 0px #ff002b;
+}
+
+.Ontwerp1:hover img, .Ontwerp2:hover img, .Ontwerp3:hover img {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*---------------------------------Bouncing Ball---------------------------------*/
+
+@media screen and (min-width: 2000px) {
+    .VakkenContainer {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .Profiel {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .PersoonlijkeOntwerpen {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .BouncingBallAnimatie {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+.BouncingBallAnimatie
+{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+
+.cls-1 {
+    fill: transparent;
+    stroke:  transparent;
+    stroke-width: 2;
+    stroke-dasharray: 25, 25;
+}
+
+.cls-2, .cls-3, .cls-4, .cls-5 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-miterlimit: 5;
+    stroke-width: 2;
+    stroke-dasharray: 25, 25;
+}
+
+#Ball {
+    fill: #ff002b;
+    offset-path: path('m.17.47s342,125,345,587c0,0,77-329,268-329s252,329,252,329c0,0,13-154,116-151s126.83,151,126.83,151'); /* SVG Pad */
+    animation: followPath 1.3s infinite linear;
+}
+
+@keyframes followPath {
+    from {
+        offset-distance: 0;
+        animation-timing-function: cubic-bezier(.83,.38,.38,.82);
+    }
+    57% {
+        offset-distance: 57%;
+        animation-timing-function: cubic-bezier(.83,.38,.38,.82);
+    }
+    89% {
+        offset-distance: 89%;
+        animation-timing-function: cubic-bezier(.83,.38,.67,.86);
+    }
+    to {
+        offset-distance: 100%;
+    }
 }

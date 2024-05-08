@@ -40,15 +40,15 @@ cursor: pointer;
 
 /* panel stijlen */
 .panel {
-min-height: 70vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
-display: flex;
-justify-content: space-around;
-align-items: center;
+    min-height: 75vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* skills wrapper stijl */
 .block {
-    width: 70%;
+    width: 50%;
     padding: 30px 30px 50px;
     border-radius: 10px;
 }
@@ -140,21 +140,33 @@ align-items: center;
     }
 }
 
-/* Grote blok voor idividuele foto's te stijlen */
+/* Grote blok voor individuele foto's te stijlen */
 .IntroductieFoto, .PassieFoto, .InteresseFoto, .LezenFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
     box-shadow: -15px 15px 15px 0px black;
 }
 
-.IntroductieFoto {
+.IntroductieFoto, .InteresseFoto {
     border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
-.PassieFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto, .SterrenFoto{
+.Over {
+    position: relative;
+    height: 500px;
+}
+
+.IntroductieFoto img, .InteresseFoto img {
+    transition: transform 1s ease;
+}
+
+.IntroductieFoto:hover img, .InteresseFoto:hover img {
+    transform: scale(1.2);
+}
+
+.VideoEditingFoto, .TekenenFoto, .CoderenFoto, .PhotoshopFoto {
     width: 40%;
-}
-
-.InteresseFoto, .LezenFoto {
-
 }
 
 /* Hier start de stijl van de vaardigheid balkjes op de Home pagina */
