@@ -23,9 +23,8 @@
                     <label for="show-Home">Over mij</label>
                     <ul>
                         <li><a href="Home.html#Introductie">Introductie</a></li>
-                        <li><a href="Home.html#Passie">Passie</a></li>
-                        <li><a href="Home.html#Programmas">Programma's</a></li>
-                        <li><a href="Home.html#Backend">Back-end</a></li>
+                        <li><a href="Home.html#Home_quote">Spreuk</a></li>
+                        <li><a href="Home.html#skills">Vaardigheden</a></li>
                         <li><a href="Home.html#Interesse">Interesse?</a></li>
                     </ul>
                 </li>
@@ -34,13 +33,12 @@
                     <input type="checkbox" id="show-Hobbies">
                     <label for="show-Hobbies">Hobbies</label>
                     <ul>
-                        <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                         <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
-                        <li><a href="Hobbies.html#HobbiesGrafisch">Grafisch ontwerpen</a></li>
-                        <li><a href="Hobbies.html#HobbiesCoderen">Coderen</a></li>
-                        <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
+                        <li><a href="Hobbies.html#HobbiesPhotoshop">Photoshop</a></li>
+                        <li><a href="Hobbies.html#HobbiesAnimatie&VideoEditing">Animatie & Video</a></li>
                     </ul>
                 </li>
+                <!--
                 <li>
                     <a href="Ervaringen.html" class="desktop-link">Ervaring</a>
                     <input type="checkbox" id="show-Ervaring">
@@ -51,10 +49,11 @@
                         <li><a href="Ervaringen.html#DELA">DELA</a></li>
                     </ul>
                 </li>
+                -->
                 <li>
-                    <a href="Werkplekleren.html" class="desktop-link">Werkplekleren 1 & 2</a>
+                    <a href="Werkplekleren.html" class="desktop-link">Studies</a>
                     <input type="checkbox" id="show-WPL">
-                    <label for="show-WPL">Wpl 2</label>
+                    <label for="show-WPL">Studies</label>
                     <ul>
                         <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                         <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -62,6 +61,7 @@
                         <li><a href="Werkplekleren.html#WerkpleklerenBronnen">Bronnen</a></li>
                     </ul>
                 </li>
+                <!--
                 <li>
                     <a href="Werkplekleren3&4.html" class="desktop-link">Werkplekleren 3 & 4</a>
                     <input type="checkbox" id="show-WPL3">
@@ -75,7 +75,8 @@
                         <li><a href="Werkplekleren3&4.html#WPL3Eindreflectie">Eindreflectie WPL3</a></li>
                     </ul>
                 </li>
-                <li><a href="Contact.html">Contact</a></li>
+                -->
+                <li><a href="Contact.html" id="active">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -88,13 +89,13 @@
     <div class="contact-items">
         <div class="telephone" href="tel:+32 471 58 09 23">
             <img class="ContactIcon" src="Icons/IcoonTelefoon.png" alt="phone"><br>
-            <h3>Bel mij!</h3><br>
+            <h3>Telefoon</h3><br>
             <hr class="divider"><br>
             <p>+32 471 58 09 23</p>
         </div>
         <div class="email" onclick="sendEmail();">
             <img class="ContactIcon" src="Icons/IcoonMail.png" alt="mail"><br>
-            <h3>E-mail mij!</h3><br>
+            <h3>E-mail</h3><br>
             <hr class="divider"><br>
             <p>Tristan.Eykens@student.pxl.be</p>
         </div>
@@ -102,13 +103,13 @@
             <div id="socialmedia">
                 <a href="https://www.linkedin.com/in/tristan-eykens-66a283201"><img class="ContactIcon" src="Icons/IcoonLinkedIn.png" alt="linkedin"></a>
             </div><br>
-            <h3>Bezoek mij!</h3><br>
+            <h3>LinkedIn</h3><br>
             <hr class="divider"><br>
             <p>@TristanEykens</p>
         </div>
         <div class="location">
             <img class="ContactIcon" src="Icons/IcoonMapMarker.png" alt="navigation"><br>
-            <h3>Mijn woonplaats</h3><br>
+            <h3>Woonplaats</h3><br>
             <hr class="divider"><br>
             <p>Ziegelsmeer 8, 3700 Tongeren</p>
         </div>
@@ -118,26 +119,27 @@
 <!-- Begin van de Footer -->
 <div class="Footer">
     <div class="Container">
+        <div class="Column Logo" id="FooterLogo">
+            <div class="FooterLogo"><a href="./Home.html"><img src="Icons/LogoStatisch.png" alt="Logo" id="footer_logo"></a></div>
+        </div>
         <div class="Column">
             <h5 Onclick="HomePageSwitch()">Over mij</h5>
             <ul>
                 <li><a href="Home.html#Introductie">Introductie</a></li>
-                <li><a href="Home.html#Passie">Passie</a></li>
-                <li><a href="Home.html#Programmas">Programma's</a></li>
-                <li><a href="Home.html#Backend">Back-end</a></li>
+                <li><a href="Home.html#Home_quote">Spreuk</a></li>
+                <li><a href="Home.html#skills">Vaardigheden</a></li>
                 <li><a href="Home.html#Interesse">Interesse?</a></li>
             </ul>
         </div>
         <div class="Column">
             <h5 Onclick="HobbiesPageSwitch()">Hobbies</h5>
             <ul>
-                <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                 <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
-                <li><a href="Hobbies.html#HobbiesGrafisch">Grafisch ontwerpen</a></li>
-                <li><a href="Hobbies.html#HobbiesCoderen">Coderen</a></li>
-                <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
+                <li><a href="Hobbies.html#HobbiesPhotoshop">Photoshop</a></li>
+                <li><a href="Hobbies.html#HobbiesAnimatie&VideoEditing">Animatie & Video</a></li>
             </ul>
         </div>
+        <!--
         <div class="Column">
             <h5 Onclick="ErvaringPageSwitch()">Ervaring</h5>
             <ul>
@@ -146,8 +148,9 @@
                 <li><a href="Ervaringen.html">DELA</a></li>
             </ul>
         </div>
+        -->
         <div class="Column">
-            <h5 Onclick="WPLPageSwitch()">Werkplekleren 1 & 2</h5>
+            <h5 Onclick="WPLPageSwitch()">Studies</h5>
             <ul>
                 <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                 <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -155,6 +158,7 @@
                 <li><a href="Werkplekleren.html#WerkpleklerenBronnen">Bronnen</a></li></br>
             </ul>
         </div>
+        <!--
         <div class="Column">
             <h5 Onclick="WPL2PageSwitch()">Werkplekleren 3</h5>
             <ul>
@@ -166,6 +170,7 @@
                 <li><a href="Werkplekleren3&4.html#WPL3Eindreflectie">Eindreflectie WPL3</a></li>
             </ul>
         </div>
+        -->
         <div class="Column Contacten">
             <h5 Onclick="ContactPageSwitch()">Contact</h5>
             <a>+32 471 58 09 23</a>

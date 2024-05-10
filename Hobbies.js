@@ -9,13 +9,13 @@ window.onscroll = function (event) {
         body.style.backgroundColor = '#1D1D1B';
     } else if (scroll >= 700 && scroll < 1500) {
         // yellow
-        body.style.backgroundColor = '#22252A';
+        body.style.backgroundColor = '#1D1D1B';
     } else if (scroll >= 1500 && scroll < 2500) {
         // blue
-        body.style.backgroundColor = '#22252A';
+        body.style.backgroundColor = '#1D1D1B';
     } else if (scroll >= 2500 && scroll < 3400) {
         // orange
-        body.style.backgroundColor = '#22252A';
+        body.style.backgroundColor = '#1D1D1B';
     } else if (scroll >= 3400 && scroll < 4400) {
         // red
         body.style.backgroundColor = '#1D1D1B';
@@ -24,3 +24,4 @@ window.onscroll = function (event) {
         body.style.backgroundColor = '#1D1D1B';
     }
 }
+

@@ -23,9 +23,8 @@
                     <label for="show-Home">Over mij</label>
                     <ul>
                         <li><a href="Home.html#Introductie">Introductie</a></li>
-                        <li><a href="Home.html#Passie">Passie</a></li>
-                        <li><a href="Home.html#Programmas">Programma's</a></li>
-                        <li><a href="Home.html#Backend">Back-end</a></li>
+                        <li><a href="Home.html#Home_quote">Spreuk</a></li>
+                        <li><a href="Home.html#skills">Vaardigheden</a></li>
                         <li><a href="Home.html#Interesse">Interesse?</a></li>
                     </ul>
                 </li>
@@ -34,13 +33,12 @@
                     <input type="checkbox" id="show-Hobbies">
                     <label for="show-Hobbies">Hobbies</label>
                     <ul>
-                        <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                         <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
-                        <li><a href="Hobbies.html#HobbiesGrafisch">Grafisch ontwerpen</a></li>
-                        <li><a href="Hobbies.html#HobbiesCoderen">Coderen</a></li>
-                        <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
+                        <li><a href="Hobbies.html#HobbiesPhotoshop">Photoshop</a></li>
+                        <li><a href="Hobbies.html#HobbiesAnimatie&VideoEditing">Animatie & Video</a></li>
                     </ul>
                 </li>
+                <!--
                 <li>
                     <a href="Ervaringen.html" class="desktop-link">Ervaring</a>
                     <input type="checkbox" id="show-Ervaring">
@@ -51,10 +49,11 @@
                         <li><a href="Ervaringen.html#DELA">DELA</a></li>
                     </ul>
                 </li>
+                -->
                 <li>
-                    <a href="Werkplekleren.html" class="desktop-link">Werkplekleren 1 & 2</a>
+                    <a href="Werkplekleren.html" class="desktop-link" id="active">Studies</a>
                     <input type="checkbox" id="show-WPL">
-                    <label for="show-WPL">Wpl 2</label>
+                    <label for="show-WPL" class="active">Studies</label>
                     <ul>
                         <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                         <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -62,6 +61,7 @@
                         <li><a href="Werkplekleren.html#WerkpleklerenBronnen">Bronnen</a></li>
                     </ul>
                 </li>
+                <!--
                 <li>
                     <a href="Werkplekleren3&4.html" class="desktop-link">Werkplekleren 3 & 4</a>
                     <input type="checkbox" id="show-WPL3">
@@ -75,6 +75,7 @@
                         <li><a href="Werkplekleren3&4.html#WPL3Eindreflectie">Eindreflectie WPL3</a></li>
                     </ul>
                 </li>
+                -->
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
@@ -363,26 +364,27 @@
 <!-- Begin van de Footer -->
 <div class="Footer">
     <div class="Container">
+        <div class="Column Logo" id="FooterLogo">
+            <div class="FooterLogo"><a href="./Home.html"><img src="Icons/LogoStatisch.png" alt="Logo" id="footer_logo"></a></div>
+        </div>
         <div class="Column">
             <h5 Onclick="HomePageSwitch()">Over mij</h5>
             <ul>
                 <li><a href="Home.html#Introductie">Introductie</a></li>
-                <li><a href="Home.html#Passie">Passie</a></li>
-                <li><a href="Home.html#Programmas">Programma's</a></li>
-                <li><a href="Home.html#Backend">Back-end</a></li>
+                <li><a href="Home.html#Home_quote">Spreuk</a></li>
+                <li><a href="Home.html#skills">Vaardigheden</a></li>
                 <li><a href="Home.html#Interesse">Interesse?</a></li>
             </ul>
         </div>
         <div class="Column">
             <h5 Onclick="HobbiesPageSwitch()">Hobbies</h5>
             <ul>
-                <li><a href="Hobbies.html#HobbiesLezen">Lezen</a></li>
                 <li><a href="Hobbies.html#HobbiesTekenen">Tekenen</a></li>
-                <li><a href="Hobbies.html#HobbiesGrafisch">Grafisch ontwerpen</a></li>
-                <li><a href="Hobbies.html#HobbiesCoderen">Coderen</a></li>
-                <li><a href="Hobbies.html#HobbiesSterrenkunde">Sterrenkunde</a></li>
+                <li><a href="Hobbies.html#HobbiesPhotoshop">Photoshop</a></li>
+                <li><a href="Hobbies.html#HobbiesAnimatie&VideoEditing">Animatie & Video</a></li>
             </ul>
         </div>
+        <!--
         <div class="Column">
             <h5 Onclick="ErvaringPageSwitch()">Ervaring</h5>
             <ul>
@@ -391,8 +393,9 @@
                 <li><a href="Ervaringen.html">DELA</a></li>
             </ul>
         </div>
+        -->
         <div class="Column">
-            <h5 Onclick="WPLPageSwitch()">Werkplekleren 1 & 2</h5>
+            <h5 Onclick="WPLPageSwitch()">Studies</h5>
             <ul>
                 <li><a href="Werkplekleren.html#WerkpleklerenTakenLijst">Taken</a></li>
                 <li><a href="Werkplekleren.html#WerkpleklerenWebsiteSectie">Website</a></li>
@@ -400,6 +403,7 @@
                 <li><a href="Werkplekleren.html#WerkpleklerenBronnen">Bronnen</a></li></br>
             </ul>
         </div>
+        <!--
         <div class="Column">
             <h5 Onclick="WPL2PageSwitch()">Werkplekleren 3</h5>
             <ul>
@@ -411,6 +415,7 @@
                 <li><a href="Werkplekleren3&4.html#WPL3Eindreflectie">Eindreflectie WPL3</a></li>
             </ul>
         </div>
+        -->
         <div class="Column Contacten">
             <h5 Onclick="ContactPageSwitch()">Contact</h5>
             <a>+32 471 58 09 23</a>
@@ -426,11 +431,11 @@
 <!-- Einde van de Footer -->
 
 <a href="#"><div id="Terug-Naar-Boven-Knop">
-    <p>Top</p>
+    <img class="ArrowUpIcon" src="Icons/IcoonArrowUp.png" alt="ArrowUp">
 </div>
 </a>
 <a href="#"><div id="Terug-Naar-Boven-Knop-2">
-    <p><i class="fa-solid fa-arrow-up"></i></p>
+    <img class="ArrowUpIcon2" src="Icons/IcoonArrowUp.png" alt="ArrowUp">
 </div>
 </a>
 </body>

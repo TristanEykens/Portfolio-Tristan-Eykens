@@ -47,7 +47,6 @@ if(boxPos <= bottomOfWindow-500 && boxPos >= topOfWindow-500){
 }
 else{
     $("body").css("background-color", "#1D1D1B");
-    $("#Terug-Naar-Boven-Knop").css("background-color", "#ff002b");
 }
 });
 });

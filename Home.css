@@ -11,8 +11,6 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    color: white;
-    background-color: #1D1D1B;
     font-size: 120%;
     line-height: 1.618;
 }
@@ -40,17 +38,31 @@ cursor: pointer;
 
 /* panel stijlen */
 .panel {
-    min-height: 75vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
+    min-height: 50vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 60px;
+}
+
+#Introductie {
+    margin-top: 120px;
+}
+
+#Interesse {
+    margin-bottom: 120px;
 }
 
 /* skills wrapper stijl */
 .block {
-    width: 50%;
-    padding: 30px 30px 50px;
+    width: 55%;
+    min-width: 600px;
+    padding: 0 0 100px;
     border-radius: 10px;
+}
+
+.Tekstje, .Spreuk {
+    padding: 20px 0 0 20px;
 }
 
 .block h2 {
@@ -148,13 +160,12 @@ cursor: pointer;
 .IntroductieFoto, .InteresseFoto {
     border-radius: 50%;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
 }
 
 .Over {
     position: relative;
-    height: 500px;
 }
 
 .IntroductieFoto img, .InteresseFoto img {
@@ -204,3 +215,109 @@ cursor: pointer;
     background: #ff002b;
 }
 /* Hier eindigt de stijl van de vaardigheid balkjes op de Home pagina */
+
+
+/* Grote blok voor responsiveness */
+
+@media only screen and (max-width: 900px) {
+    .body {
+        position: relative;
+    }
+    .panel {
+        min-height: 20vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
+        display: block;
+        font-size: 18px;
+    }
+
+    .IntroductieFoto, .InteresseFoto {
+        scale: 0.90;
+    }
+
+    .Over {
+        position: relative;
+        padding-bottom: 10px;
+        margin-left: 23%;
+    }
+
+    .block {
+        margin-left: 15%;
+        width: 65%;
+        min-width: 400px;
+    }
+    .Tekstje {
+        padding: 0 0 0 200px;
+    }
+    .Spreuk {
+        padding: 0 0 0 80px;
+    }
+    .Spreuk h1{
+        font-size: 30px;
+    }
+    #Introductie {
+        margin-top: 80px;
+    }
+
+    #Interesse {
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .panel {
+        font-size: 80%;
+    }
+    .Over {
+        margin-left: 18%;
+    }
+    .Tekstje {
+        padding: 0 0 0 150px;
+    }
+    .Spreuk {
+        padding: 0 0 0 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Over {
+        margin-left: 13%;
+    }
+    .Tekstje {
+        padding: 0 0 0 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Over {
+        margin-left: 5%;
+    }
+    .IntroductieFoto, .InteresseFoto {
+        scale: 0.80;
+    }
+    .Tekstje {
+        padding: 0 0 0 80px;
+    }
+    .Spreuk {
+        padding: 0 0 0 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .Over {
+        margin-left: 0;
+    }
+    .Tekstje {
+        padding: 0 0 0 50px;
+    }
+    .Spreuk {
+        padding: 0 0 0 15px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .block {
+        margin-left: 9%;
+    }
+    .Tekstje {
+        padding: 0 0 0 30px;
+    }
+}
