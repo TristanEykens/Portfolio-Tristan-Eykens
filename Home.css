@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    font-size: 120%;
+    font-size: 110%;
     line-height: 1.618;
 }
 
@@ -103,7 +103,7 @@ cursor: pointer;
 }
 @keyframes html-fill {
     100% {
-        width: 60%;
+        width: 80%;
     }
 }
 
@@ -112,7 +112,7 @@ cursor: pointer;
 }
 @keyframes css-fill{
     100%{
-        width: 55%;
+        width: 80%;
     }
 }
 
@@ -125,6 +125,15 @@ cursor: pointer;
     }
 }
 
+#photoshop-bar {
+    animation: pho-fill 2s forwards;
+}
+@keyframes pho-fill {
+    100%{
+        width: 65%;
+    }
+}
+
 #illustrator-bar {
     animation: ill-fill 2s forwards;
 }
@@ -134,19 +143,19 @@ cursor: pointer;
     }
 }
 
-#photoshop-bar {
-    animation: pho-fill 2s forwards;
+#figma-bar {
+    animation: figma-fill 2s forwards;
 }
-@keyframes pho-fill {
+@keyframes figma-fill {
     100%{
-        width: 80%;
+        width: 90%;
     }
 }
 
-#xd-bar {
-    animation: xd-fill 2s forwards;
+#blender-bar {
+    animation: blender-fill 2s forwards;
 }
-@keyframes xd-fill {
+@keyframes blender-fill {
     100%{
         width: 80%;
     }
@@ -160,8 +169,8 @@ cursor: pointer;
 .IntroductieFoto, .InteresseFoto {
     border-radius: 50%;
     overflow: hidden;
-    width: 500px;
     height: 500px;
+    width: 100%;
 }
 
 .Over {

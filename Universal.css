@@ -320,6 +320,7 @@ nav i:hover {
     align-items: center;
     padding-top: 21px;
     visibility: visible;
+    border-radius: 90px;
 }
 
 #footer_logo {
@@ -329,7 +330,6 @@ nav i:hover {
 #footer_logo:hover {
     content: url("Icons/SpinningArrowsLogoSlow.gif");
     display: inline-block;
-    border-radius: 90px;
     scale: 130%;
 }
 

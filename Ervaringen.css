@@ -1,34 +1,46 @@
 body{
     box-sizing: border-box;
 }
-hr{
+
+.wrapper {               /* Dit veranderd de hoogte van het logo in de header op deze pagina. */
+    line-height: 1.618;  /* Op "Home" en "Hobbies" staat het logo op de juiste plaats dus op die pagina's is dit niet nodig. */
+}
+
+hr {
     width: 80%;
 }
-h1, h2, h5{
+
+h1, h2, h5 {
 
     color: #ff002b;
 }
-h1, h2{
+
+h1, h2 {
 text-align: center;
 }
-a{
+
+a {
     font-size: 16px;
 }
-p{
+
+p {
     font-size: 15px;
     color: #F3FAFE;
 }
-.contact-items{
+
+
+.contact-items {
     display: flex;
     margin: 30px auto;
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 100px;
 }
-.contact-items h1, h2, h5{
+.contact-items h1, h2, h5 {
     color: #ff002b;
 }
-.customer-care,.write-us,.sales-market,.PXL-logo,.VIIO-logo,.DELA-logo{
+
+.customer-care,.write-us,.sales-market,.PXL-logo,.VIIO-logo,.DELA-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,17 +52,20 @@ p{
     min-width: 250px;
     background-color: transparent;
 }
-.customer-care{
-    height: 250px;
-}
-.write-us{
-    height: 250px;
-}
-.sales-market{
+
+.customer-care {
     height: 250px;
 }
 
-.PXL-logo img,.VIIO-logo img,.DELA-logo img{
+.write-us {
+    height: 250px;
+}
+
+.sales-market {
+    height: 250px;
+}
+
+.PXL-logo img,.VIIO-logo img,.DELA-logo img {
     width: 80%;
     box-shadow: 15px 15px 15px black;
 }

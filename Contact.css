@@ -1,25 +1,37 @@
 body{
     box-sizing: border-box;
 }
+
+.wrapper {               /* Dit veranderd de hoogte van het logo in de header op deze pagina. */
+    line-height: 1.918;  /* Op "Home" en "Hobbies" staat het logo op de juiste plaats dus op die pagina's is dit niet nodig. */
+}
+
 hr{
     width: 80%;
 }
+
 h1, h5{
     color: #ff002b;
 }
+
 h3 {
     color: #F3FAFE;
 }
+
 h1, h2, h3 {
     text-align: center;
 }
-a{
+
+a {
     font-size: 16px;
 }
+
 p{
     font-size: 15px;
     color: #F3FAFE;
 }
+
+
 #icon {
     width: 50px;
 }

@@ -19,7 +19,7 @@ a {
 /*---------------------------------Paneel Stijlen---------------------------------------*/
 .panel {
     /* min height incase content is higher than window height */
-
+    margin-top: 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,13 +27,14 @@ a {
     /* turn above on to see the edge of panels */
 }
 
-#HobbiesTitel, #HobbiesTekenen, #HobbiesPhotoshop, #HobbiesAnimatie\&VideoEditing {
-    margin-top: 160px;
+#HobbiesTitel {
+    margin-top: 105px;
 }
 
 /*---------------------------------PersoonlijkeOntwerpen---------------------------------*/
 .h2MyWork {
     text-align: center;
+    font-size: 2.1em;
 }
 
 .PersoonlijkeOntwerpenTekenen, .PersoonlijkeOntwerpenPhotoshop {
@@ -43,19 +44,16 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 65%;
+    width: 70%;
 }
 
 .Ontwerp1, .Ontwerp2, .Ontwerp3, .Ontwerp4, .Ontwerp5, .Ontwerp6 {
-
     box-shadow: 0 15px 15px black;
     border-radius: 3%;
-    transition: transform 0.3s ease-in-out
-}
-
-.Ontwerp1, .Ontwerp2, .Ontwerp3, .Ontwerp4, .Ontwerp5, .Ontwerp6 {
+    transition: transform 0.3s ease-in-out;
     width: 400px;
     height: 400px;
+    margin-top: 25px;
 }
 
 .Ontwerp1 img, .Ontwerp2 img, .Ontwerp3 img, .Ontwerp4 img, .Ontwerp5 img, .Ontwerp6 img {
@@ -86,6 +84,68 @@ a {
     width: 400px;
     height: 600px;
 }
+
+/* hover effects op de ontwerp tentoonstellingen */
+.OntwerpHovereffect {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.OntwerpHovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.OntwerpHovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.OntwerpHovereffect h2 {
+    font-size: 20px;
+    color: #F3FAFE;
+    text-align: center;
+    position: relative;
+    background: rgba(0,0,0,0.6);
+    -webkit-transform: translatey(-100px);
+    -ms-transform: translatey(-100px);
+    transform: translatey(-100px);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding: 10px;
+}
+
+.OntwerpHovereffect:hover img {
+    -ms-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.OntwerpHovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+.OntwerpHovereffect:hover h2 {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(0);
+    -webkit-transform:translatey(0);
+    transform:translatey(0);
+}
+
 
 /*---------------------------------Bouncing Ball---------------------------------*/
 

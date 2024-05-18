@@ -1,3 +1,4 @@
+/*
 var body = document.getElementsByTagName('body')[0];
 body.style.backgroundColor = '#1D1D1B';
 
@@ -24,4 +25,4 @@ window.onscroll = function (event) {
         body.style.backgroundColor = '#1D1D1B';
     }
 }
-
+*/

@@ -13,8 +13,8 @@ function ErvaringPageSwitch() {
 function WPLPageSwitch() {
     window.location.href = "./Werkplekleren.html";
 }
-function WPL2PageSwitch() {
-    window.location.href = "./Werkplekleren3&4.html";
+function PXLdocumentsPageSwitch() {
+    window.location.href = "./PXLdocumenten.html";
 }
 function ContactPageSwitch() {
     window.location.href = "./Contact.html";
