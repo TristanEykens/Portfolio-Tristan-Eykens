@@ -31,6 +31,11 @@ a {
     margin-top: 105px;
 }
 
+
+.TekenenFoto, .PhotoshopFoto {
+    max-width: 33%;
+}
+
 /*---------------------------------PersoonlijkeOntwerpen---------------------------------*/
 .h2MyWork {
     text-align: center;
@@ -77,6 +82,7 @@ a {
 
 .ThisIsMeAnimatieVideo {
     width: 37.2%;
+    max-width: 710px;
     height: 400px;
 }
 
@@ -149,34 +155,15 @@ a {
 
 /*---------------------------------Bouncing Ball---------------------------------*/
 
-@media screen and (min-width: 2000px) {
-    .VakkenContainer {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-
-    .Profiel {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-
-    .PersoonlijkeOntwerpen {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-
-    .BouncingBallAnimatie {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
+#HobbiesBouncingBall {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .BouncingBallAnimatie
 {
-    width: 35%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
+    width: 50%;
+    min-width: 500px;
 }
 
 .cls-1 {
@@ -215,5 +202,113 @@ a {
     }
     to {
         offset-distance: 100%;
+    }
+}
+
+
+/* Grote blok voor responsiveness */
+
+@media only screen and (max-width: 1600px) {
+    .ThisIsMeAnimatieVideo {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .ThisIsMeAnimatieVideo {
+        height: 290px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .Body {
+        position: relative;
+    }
+    #HobbiesTekenen {
+        margin-top: 0;
+    }
+    .TekenenFoto, .PhotoshopFoto {
+        Display: none;
+        width: 0;
+    }
+    #HobbiesAnimatie\&VideoEditing, #HobbiesBouncingBall {
+        display: block;
+    }
+    .AnimatieTekst {
+        margin-left: 20%;
+    }
+    .ThisIsMeAnimatieVideo {
+        height: 450px;
+    }
+    .ThisIsMeAnimatieVideo, .DynamicMachineAnimatieVideo {
+        margin-left: 15%;
+        width: 70%;
+        margin-top: 5%;
+    }
+    .BouncingBallAnimatie
+    {
+        min-width: 400px;
+        width: 80%;
+        margin-left: 15%;
+        margin-right: 10%;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Tekstje {
+        padding: 0 0 0 0;
+    }
+    .ThisIsMeAnimatieVideo {
+        margin-left: 20%;
+        width: 60%;
+        height: 310px;
+    }
+    .DynamicMachineAnimatieVideo {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .Tekstje {
+        padding: 0 0 0 0;
+    }
+    .ThisIsMeAnimatieVideo {
+        margin-left: 15%;
+        width: 70%;
+        height: 300px;
+    }
+    .DynamicMachineAnimatieVideo {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ThisIsMeAnimatieVideo {
+        margin-left: 15%;
+        width: 70%;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .AnimatieTekst {
+        margin-left: 17%;
+    }
+    .ThisIsMeAnimatieVideo {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ThisIsMeAnimatieVideo {
+        margin-left: 5%;
+        width: 436px;
+        height: 247px;
+    }
+    .DynamicMachineAnimatieVideo {
+        margin-left: 15%;
+        width: 70%;
     }
 }

@@ -240,6 +240,7 @@ cursor: pointer;
 
     .IntroductieFoto, .InteresseFoto {
         scale: 0.90;
+        max-width: 483px;
     }
 
     .Over {
@@ -314,19 +315,13 @@ cursor: pointer;
     .Over {
         margin-left: 0;
     }
-    .Tekstje {
-        padding: 0 0 0 50px;
-    }
     .Spreuk {
         padding: 0 0 0 15px;
     }
-}
-
-@media only screen and (max-width: 550px) {
     .block {
         margin-left: 9%;
     }
     .Tekstje {
-        padding: 0 0 0 30px;
+        padding: 0 0 0 50px;
     }
 }

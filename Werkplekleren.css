@@ -241,6 +241,7 @@ input[type="checkbox"]{
     background-color: transparent;
     width: 100%;
     height: 900px;
+    margin-bottom: 20px;
 }
 
 .PastaFresca-section h1 {
@@ -262,9 +263,9 @@ input[type="checkbox"]{
     padding-left: 250px;
 }
 
-.Titel_div img {
-    width: 80%;
-    padding-left: 250px;
+.PastaFresca_LogoImage img {
+    width: 500px;
+    margin: 0 150px 0 200px;
 }
 
 #IntroPastaFresca{
@@ -301,10 +302,6 @@ input[type="checkbox"]{
     color: #F3FAFE;
 }
 
-.IndividueelTaakVakje img {
-    width: 25%;
-}
-
 .WebshopTaakvakTitel, .BronnenTitel {
     padding-bottom: 20px;
     font-size: 135%;
@@ -338,7 +335,7 @@ input[type="checkbox"]{
 }
 
 /*=======================================Einde van Pasta Fresca sectie=====================================================*/
-/*======================================Begin van Eindreflectie sectie=====================================================*/
+/*=========================================Begin van Bronnen sectie========================================================*/
 
 #IntroPastaFresca {
     padding-bottom: 50px;
@@ -353,5 +350,168 @@ hr.divider {
     border-radius: 2px;
     border-color: #ff002b;
     width: 80%;
-    margin-top: 50px;
+}
+
+
+/* Grote blok voor responsiveness */
+
+@media only screen and (max-width: 1350px) {
+    .PastaFresca_FreshTitle {
+        Display: none;
+        width: 0;
+    }
+    .PastaFresca_LogoImage {
+        scale: 1;
+    }
+    .PastaFresca_LogoImage img {
+        margin: 0 0 0 0;
+    }
+    .PastaFresca-section {
+        margin-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .PastaFresca_FreshTitle {
+        Display: none;
+        width: 0;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.8;
+    }
+    .PastaFresca-section {
+        margin-bottom: 250px;
+    }
+    #IntroPastaFresca {
+        width: 800px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .panel, .Bronnen {
+        min-height: 20vh; /* minimum hoogte voor als de content hoger is dan de hoogte van het venster */
+        font-size: 18px;
+    }
+    .block {
+        margin-left: 15%;
+        width: 65%;
+        min-width: 400px;
+    }
+    .Tekstje {
+        padding: 0 0 0 20px;
+    }
+    #IntroPastaFresca {
+        margin: 40px 0 40px 40px;
+    }
+    .h2MyLogos {
+        margin-top: 60px;
+    }
+    .PastaFresca_FreshTitle {
+        Display: none;
+        width: 0;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.7;
+    }
+    .PastaFresca-section {
+        margin-bottom: 350px;
+    }
+    #IntroPastaFresca {
+        width: 600px;
+    }
+    .panel {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .panel, .Bronnen {
+        font-size: 80%;
+    }
+    .Over {
+        margin-left: 18%;
+    }
+    .Tekstje {
+        padding: 0 0 0 20px;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.65;
+    }
+    .PastaFresca-section {
+        margin-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Over {
+        margin-left: 13%;
+    }
+    .Tekstje {
+        padding: 0 0 0 20px;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.6;
+    }
+    .PastaFresca-section {
+        margin-bottom: 250px;
+    }
+    #IntroPastaFresca {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 628px) {
+    .PastaFresca-section {
+        margin-bottom: 450px;
+    }
+    .IndividueelTaakVakje {
+        max-width: 297px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Over {
+        margin-left: 5%;
+    }
+    .Tekstje {
+        padding: 0 0 0 20px;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.55;
+    }
+    .PastaFresca-section {
+        margin-bottom: 450px;
+    }
+    #IntroPastaFresca {
+        padding: 0 0 0 15px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .Over {
+        margin-left: 0;
+    }
+    .Tekstje {
+        padding: 0 0 0 20px;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.55;
+    }
+    #IntroPastaFresca {
+        width: 450px;
+    }
+    .block {
+        margin-left: 9%;
+    }
+    .Tekstje {
+        padding: 0 0 0 20px;
+    }
+    .PastaFresca_LogoImage {
+        scale: 0.50;
+    }
+    #IntroPastaFresca {
+        padding: 0 0 0 0;
+    }
 }
