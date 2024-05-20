@@ -15,11 +15,6 @@ body {
     line-height: 1.618;
 }
 
-h1 {
-    color: #ff002b;
-    font-size: 50px;
-}
-
 h1, h2 {
     color: #ff002b;
     font-size: 3em;
@@ -162,7 +157,7 @@ cursor: pointer;
 }
 
 /* Grote blok voor individuele foto's te stijlen */
-.IntroductieFoto, .PassieFoto, .InteresseFoto, .LezenFoto, .TekenenFoto, .CoderenFoto, .GrafischFoto {
+.IntroductieFoto, .InteresseFoto, .TekenenFoto, .PhotoshopFoto {
     box-shadow: -15px 15px 15px 0px black;
 }
 
@@ -171,6 +166,10 @@ cursor: pointer;
     overflow: hidden;
     height: 500px;
     width: 100%;
+}
+
+#InteresseFoto {
+    min-width: 100%;
 }
 
 .Over {

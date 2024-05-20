@@ -52,6 +52,11 @@ a {
     width: 70%;
 }
 
+#Schets {
+    width: 400px;
+    height: 400px;
+}
+
 .Ontwerp1, .Ontwerp2, .Ontwerp3, .Ontwerp4, .Ontwerp5, .Ontwerp6 {
     box-shadow: 0 15px 15px black;
     border-radius: 3%;

@@ -5,8 +5,9 @@ body{
     font-size: 110%;
 }
 
-h1 {
+h1, h2 {
     color: #ff002b;
+    line-height: 1.1;
 }
 
 .panel {
@@ -344,12 +345,37 @@ input[type="checkbox"]{
 .Bronnen {
     padding-bottom: 100px;
     color: #F3FAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Bronnen h1 {
+    font-size: 135%;
 }
 
 hr.divider {
     border-radius: 2px;
     border-color: #ff002b;
     width: 80%;
+}
+
+.BronnenKnop {
+    margin-top: 15px;
+    width: 130%;
+    background-color: #070D0D;
+    color: #F3FAFE;
+}
+
+.BronnenKnop:hover {
+    box-shadow: 0px 0px 15px 0px #ff002b;
+}
+
+/* Back-to-top button */
+
+#Terug-Naar-Boven-Knop, #Terug-Naar-Boven-Knop-2 {
+    line-height: 1.618;
 }
 
 

@@ -114,3 +114,11 @@ button {
 .button:hover::before {
     width: 100%;
 }
+
+
+
+/*=================================Begin van Stage Documenten pagina==============================================*/
+
+.DocumentenStage {
+    padding-bottom: 150px;
+}
