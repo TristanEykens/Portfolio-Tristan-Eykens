@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 1.318;
 }
 
 .wrapper {               /* Dit veranderd de hoogte van het logo in de header op deze pagina. */
@@ -32,6 +33,10 @@ video {
     width: 50%;
     height: 500px;
     padding-bottom: 50px;
+}
+
+#Terug-Naar-Boven-Knop, #Terug-Naar-Boven-Knop-2 {
+    line-height: 1.618;
 }
 
 /*======================================Begin van Eindreflectie sectie=====================================================*/

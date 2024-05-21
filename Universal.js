@@ -7,9 +7,6 @@ function HomePageSwitch() {
 function HobbiesPageSwitch() {
     window.location.href = "./Hobbies.html";
 }
-function ErvaringPageSwitch() {
-    window.location.href = "./Ervaringen.html";
-}
 function WPLPageSwitch() {
     window.location.href = "./Werkplekleren.html";
 }
