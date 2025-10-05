@@ -176,10 +176,17 @@ i {
 }
 
 .IntroductieFoto, .InteresseFoto {
-    border-radius: 50%;
     overflow: hidden;
     height: 500px;
     width: 100%;
+}
+
+.IntroductieFoto {
+    border-radius: 50%;
+}
+
+.InteresseFoto {
+    border-radius: 10%;
 }
 
 #InteresseFoto {
