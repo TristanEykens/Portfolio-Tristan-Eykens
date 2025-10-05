@@ -23,12 +23,12 @@ h1, h2 {
 }
 
 p {
-max-width: 30em;
-margin-bottom: 1.618em;
+    max-width: 30em;
+    margin-bottom: 1.618em;
 }
 
 i {
-cursor: pointer;
+    cursor: pointer;
 }
 
 /* panel stijlen */
@@ -42,6 +42,20 @@ cursor: pointer;
 
 #Introductie {
     margin-top: 120px;
+}
+
+#ProfielFoto {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#InteresseFoto {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.InteresseFoto {
+
 }
 
 #Interesse {
@@ -98,7 +112,7 @@ cursor: pointer;
 }
 @keyframes html-fill {
     100% {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -107,7 +121,7 @@ cursor: pointer;
 }
 @keyframes css-fill{
     100%{
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -116,7 +130,7 @@ cursor: pointer;
 }
 @keyframes js-fill {
     100%{
-        width: 30%;
+        width: 60%;
     }
 }
 
@@ -125,7 +139,7 @@ cursor: pointer;
 }
 @keyframes pho-fill {
     100%{
-        width: 65%;
+        width: 75%;
     }
 }
 
@@ -184,7 +198,7 @@ cursor: pointer;
     transform: scale(1.2);
 }
 
-.VideoEditingFoto, .TekenenFoto, .CoderenFoto, .PhotoshopFoto {
+.TekenenFoto, .PhotoshopFoto {
     width: 40%;
 }
 

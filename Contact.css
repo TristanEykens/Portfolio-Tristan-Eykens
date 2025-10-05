@@ -3,7 +3,7 @@ body{
 }
 
 .wrapper {               /* Dit veranderd de hoogte van het logo in de header op deze pagina. */
-    line-height: 1.918;  /* Op "Home" en "Hobbies" staat het logo op de juiste plaats dus op die pagina's is dit niet nodig. */
+    line-height: 1.618;  /* Op "Home" en "Hobbies" staat het logo op de juiste plaats dus op die pagina's is dit niet nodig. */
 }
 
 hr{
